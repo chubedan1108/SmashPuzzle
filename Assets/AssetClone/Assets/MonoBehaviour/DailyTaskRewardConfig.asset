@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1684054501, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: DailyTaskRewardConfig
+  m_EditorClassIdentifier:
+  m_stages:
+  - Tasks:
+    - Kind: 0
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 20
+      Rewards:
+      - Type: 5
+        Amount: 10
+      - Type: 0
+        Amount: 10
+    - Kind: 8
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 1500
+      Rewards:
+      - Type: 5
+        Amount: 10
+      - Type: 0
+        Amount: 10
+    - Kind: 3
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 1
+      Rewards:
+      - Type: 5
+        Amount: 15
+      - Type: 0
+        Amount: 10
+    - Kind: 9
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 300
+      Rewards:
+      - Type: 5
+        Amount: 5
+      - Type: 0
+        Amount: 10
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 400
+      Rewards:
+      - Type: 5
+        Amount: 15
+      - Type: 0
+        Amount: 10
+  - Tasks:
+    - Kind: 0
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 50
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 10
+    - Kind: 8
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 5000
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 15
+    - Kind: 7
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 1
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 15
+    - Kind: 9
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 1000
+      Rewards:
+      - Type: 5
+        Amount: 15
+      - Type: 0
+        Amount: 10
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 1200
+      Rewards:
+      - Type: 5
+        Amount: 15
+      - Type: 0
+        Amount: 10
+  - Tasks:
+    - Kind: 1
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 15
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 10
+    - Kind: 8
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 10000
+      Rewards:
+      - Type: 5
+        Amount: 25
+      - Type: 2
+        Amount: 1
+    - Kind: 5
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 2500
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 10
+    - Kind: 3
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 2
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 10
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 1750
+      Rewards:
+      - Type: 5
+        Amount: 20
+      - Type: 0
+        Amount: 15
+  - Tasks:
+    - Kind: 1
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 25
+      Rewards:
+      - Type: 5
+        Amount: 30
+      - Type: 0
+        Amount: 15
+    - Kind: 8
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 17500
+      Rewards:
+      - Type: 5
+        Amount: 40
+      - Type: 0
+        Amount: 20
+    - Kind: 9
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 2500
+      Rewards:
+      - Type: 5
+        Amount: 25
+      - Type: 0
+        Amount: 15
+    - Kind: 5
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 5000
+      Rewards:
+      - Type: 5
+        Amount: 25
+      - Type: 0
+        Amount: 10
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 2750
+      Rewards:
+      - Type: 5
+        Amount: 25
+      - Type: 0
+        Amount: 15
+  - Tasks:
+    - Kind: 0
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 125
+      Rewards:
+      - Type: 5
+        Amount: 35
+      - Type: 0
+        Amount: 15
+    - Kind: 9
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 3000
+      Rewards:
+      - Type: 5
+        Amount: 30
+      - Type: 0
+        Amount: 15
+    - Kind: 5
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 12500
+      Rewards:
+      - Type: 5
+        Amount: 35
+      - Type: 0
+        Amount: 20
+    - Kind: 3
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 3
+      Rewards:
+      - Type: 5
+        Amount: 30
+      - Type: 0
+        Amount: 15
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 3500
+      Rewards:
+      - Type: 5
+        Amount: 35
+      - Type: 0
+        Amount: 15
+  - Tasks:
+    - Kind: 0
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 175
+      Rewards:
+      - Type: 5
+        Amount: 40
+      - Type: 0
+        Amount: 15
+    - Kind: 9
+      DifficultySubtype: 1
+      ObstacleSubtype: 2
+      Target: 4000
+      Rewards:
+      - Type: 5
+        Amount: 40
+      - Type: 0
+        Amount: 20
+    - Kind: 3
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 4
+      Rewards:
+      - Type: 5
+        Amount: 40
+      - Type: 0
+        Amount: 15
+    - Kind: 1
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 40
+      Rewards:
+      - Type: 5
+        Amount: 45
+      - Type: 0
+        Amount: 20
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 4500
+      Rewards:
+      - Type: 5
+        Amount: 45
+      - Type: 2
+        Amount: 1
+  - Tasks:
+    - Kind: 0
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 250
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 15
+    - Kind: 8
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 40000
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 20
+    - Kind: 5
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 20000
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 20
+    - Kind: 3
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 5
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 15
+    - Kind: 4
+      DifficultySubtype: 1
+      ObstacleSubtype: 4
+      Target: 6000
+      Rewards:
+      - Type: 5
+        Amount: 50
+      - Type: 0
+        Amount: 20
+  m_lightningThresholdRewards:
+  - Threshold: 300
+    Icon: {fileID: 21300000, guid: 0f676f96f1e2b5f48b1fa1a2356a0bb0, type: 2}
+    Rewards:
+    - Type: 0
+      Amount: 100
+    - Type: 4
+      Amount: 15
+  - Threshold: 600
+    Icon: {fileID: 21300000, guid: 908574e8ddfe59b4eb6722ed9331e459, type: 2}
+    Rewards:
+    - Type: 0
+      Amount: 250
+    - Type: 2
+      Amount: 1
+    - Type: 4
+      Amount: 30
+  - Threshold: 1000
+    Icon: {fileID: 21300000, guid: 48a92ff9ed713414db7e8d72b3ec86c5, type: 2}
+    Rewards:
+    - Type: 0
+      Amount: 1000
+    - Type: 2
+      Amount: 1
+    - Type: 3
+      Amount: 1
+    - Type: 4
+      Amount: 60
+  m_lightningBarMax: 1050

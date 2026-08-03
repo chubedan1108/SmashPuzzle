@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506086122, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: PlayPopup_InnerStroke_SpritePalette
+  m_EditorClassIdentifier:
+  m_configs:
+  - Key: 0
+    Value: {fileID: 21300000, guid: 290601e244806b445863b17a78d5f21c, type: 2}
+  - Key: 1
+    Value: {fileID: 21300000, guid: 7f32d3af26c3b3a4ba0b9d390212faf4, type: 2}
+  - Key: 2
+    Value: {fileID: 21300000, guid: 5861171b492dc7a4ca5ce7a31441c9f3, type: 2}
+  m_defaultConfig: {fileID: 21300000, guid: 290601e244806b445863b17a78d5f21c, type: 2}

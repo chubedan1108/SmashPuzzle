@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 579831643, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: DailyTask_RewardItemAnimationConfig
+  m_EditorClassIdentifier:
+  StartScale: {x: 0, y: 0, z: 0}
+  EndScale: {x: 1.15, y: 1.15, z: 1.15}
+  ScaleDuration: 0.3
+  ScaleStartDelay: 0
+  ScaleEase:
+    Type: 0
+    Ease: 2
+    EaseAsset: {fileID: 0}
+  MoveBy: {x: 0, y: 112, z: 0}
+  MoveDuration: 0.3
+  MoveStartDelay: 0.3
+  MoveEase:
+    Type: 0
+    Ease: 2
+    EaseAsset: {fileID: 0}
+  StartAlpha: 1
+  EndAlpha: 0
+  FadeDuration: 0.3
+  FadeStartDelay: 0.45
+  FadeEase: 2

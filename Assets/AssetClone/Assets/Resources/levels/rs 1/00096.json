@@ -1,0 +1,600 @@
+{
+  "Version": 1,
+  "MoveCount": 35,
+  "Difficulty": 0,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 7,
+        "d": 7
+      }
+    },
+    {
+      "Id": "StoneCylinder_5",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_5",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": 0,
+        "y": 4,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_4",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": -1.99999988,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": -1.99999988,
+        "y": 3.5,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": -1.99999988,
+        "y": 3.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": -1.99999988,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneCylinder_3",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": -2,
+        "y": 11.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": 2,
+        "y": 11.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_3",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_3",
+      "Position": {
+        "x": -1,
+        "y": 10.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_3",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "CanSquare_3",
+      "Position": {
+        "x": 1,
+        "y": 10.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      }
+    },
+    {
+      "Id": "ColumnCylinder_5",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_5",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_5",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 4
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_5",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": -1.3709066E-06,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": -1.3709066E-06,
+        "y": 11.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": -1.3709066E-06,
+        "y": 11.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_5",
+      "Position": {
+        "x": -1.49011589E-06,
+        "y": 12.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_5",
+      "Position": {
+        "x": -1.49011589E-06,
+        "y": 12.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_5",
+      "Position": {
+        "x": -1.49011589E-06,
+        "y": 12.5,
+        "z": 3
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    }
+  ]
+}

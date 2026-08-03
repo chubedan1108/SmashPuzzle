@@ -1,0 +1,810 @@
+{
+  "Version": 1,
+  "MoveCount": 19,
+  "Difficulty": 1,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Round",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 8.02999973,
+        "d": 6
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": -1,
+        "y": 3,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": -1,
+        "y": 9,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": 0,
+        "y": 3,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": 0,
+        "y": 9,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 1,
+        "y": 3,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 1,
+        "y": 9,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 9,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": -1,
+        "y": 3,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 0,
+        "y": 3,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 1,
+        "y": 3,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 9,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 9,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 9,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": -2,
+        "y": 9,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": -1,
+        "y": 3,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 0,
+        "y": 3,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 1,
+        "y": 3,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_4",
+      "Position": {
+        "x": 2,
+        "y": 9,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": -1,
+        "y": 3,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": -1,
+        "y": 9,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 0,
+        "y": 3,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_2",
+      "Position": {
+        "x": 0,
+        "y": 9,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": 1,
+        "y": 3,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareRed_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_2",
+      "Position": {
+        "x": 1,
+        "y": 9,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0.707106888,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0.707106888,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "StoneSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    }
+  ]
+}

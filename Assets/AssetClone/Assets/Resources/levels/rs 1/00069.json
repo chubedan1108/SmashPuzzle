@@ -1,0 +1,4226 @@
+{
+  "Version": 1,
+  "MoveCount": 25,
+  "Difficulty": 0,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 9,
+        "d": 5
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 9.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 11.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 12.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 12.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0.00872744154,
+        "y": 0.00872744154,
+        "z": -7.61740448E-05,
+        "w": 0.999923825
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 12.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 11.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 11.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 9.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 10.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 11.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 12.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 10.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 11.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 0,
+        "y": 9.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 11.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 10.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 11.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 9.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 10.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 11.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 12.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4.00000477,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4.00000477,
+        "y": 3.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -3.00000501,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3.00000501,
+        "y": 3.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2.00000501,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2.00000501,
+        "y": 3.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 9.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 10.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 12.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1.00000501,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 10.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 9.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 9.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -5.00679016E-06,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 0,
+        "y": 9.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0.999994993,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 10.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1.99999499,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 9.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 10.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 11.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 12.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 2.99999499,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3.99999499,
+        "y": 2.49996185,
+        "z": 1.00000381
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": 1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 11.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 9.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 11.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 12.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4.00000477,
+        "y": 2.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4.00000477,
+        "y": 3.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3.00000501,
+        "y": 3.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2.00000501,
+        "y": 3.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 9.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 10.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 11.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 12.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1.00000501,
+        "y": 2.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 10.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 11.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -5.00679016E-06,
+        "y": 2.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 0,
+        "y": 9.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 10.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0,
+        "y": 11.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 0.999994993,
+        "y": 2.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 10.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 11.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 9.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 10.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 11.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 12.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 12.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 12.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3.99999499,
+        "y": 2.49996185,
+        "z": -0.999996185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 9.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 9.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 9.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 9.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 9.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": -1
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 3.50005293,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 3.50001764,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 4.50005293,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 4.50001764,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 8.50005245,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 8.50001717,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 9.50005245,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 9.50001717,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 5.50005293,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -1.00005341,
+        "y": 6.50005293,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": -5.34057617E-05,
+        "y": 6.50005293,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 6.50001764,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColorBoxSquareBlue_1",
+      "Position": {
+        "x": 0.999977112,
+        "y": 5.50001764,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 10.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  ]
+}

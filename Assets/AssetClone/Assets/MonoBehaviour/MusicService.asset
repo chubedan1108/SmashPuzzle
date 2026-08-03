@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1106671612, guid: beec14ce928e0eac411b710eff7f1b3f, type: 3}
+  m_Name: MusicService
+  m_EditorClassIdentifier:
+  m_fadeInDuration: 0.5
+  m_fadeInEase:
+    Type: 0
+    Ease: 0
+    EaseAsset: {fileID: 0}
+  m_fadeOutDuration: 0.5
+  m_fadeOutEase:
+    Type: 0
+    Ease: 0
+    EaseAsset: {fileID: 0}
+  VolumeMultiplier: 0.9
+  GlobalMusicVolume: {fileID: 11400000, guid: 408894c4f1876494d9206b6680f2e82d, type: 2}
+  MusicEnabled: {fileID: 11400000, guid: 006d3346f06092a45aba391ff09a2817, type: 2}
+  Entries:
+  - Name: main
+    AudioClipReference:
+      m_AssetGUID: a7c3f2e1d8b94a05bc6e1f2a3b4c5d6e
+      m_SubObjectName:
+      m_SubObjectType:
+    Volume: 1

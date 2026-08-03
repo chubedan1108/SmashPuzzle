@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1984405856, guid: 9d21a17611fc41f54314f31dc97c4914, type: 3}
+  m_Name: AB_WinStreak
+  m_EditorClassIdentifier:
+  IncludeInBuild: 1
+  TestName: ab_winstreak_01
+  MinInstallBuildAndroid: 126
+  MinInstallBuildIOS: 186
+  ExecutionOrder: 0
+  Variants:
+  - VariantName: on
+    Weight: 1
+    ConfigSet:
+    - Key: win_streak_enabled
+      Value: 1
+      FirstOpenOnly: 0
+  - VariantName: off
+    Weight: 1
+    ConfigSet:
+    - Key: win_streak_enabled
+      Value: 0
+      FirstOpenOnly: 0

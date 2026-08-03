@@ -1,0 +1,4164 @@
+{
+  "Version": 1,
+  "MoveCount": 29,
+  "Difficulty": 1,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 10,
+        "d": 3
+      }
+    },
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 3,
+        "y": 2,
+        "z": 12.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 5,
+        "d": 3
+      }
+    },
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": -3,
+        "y": 2,
+        "z": 12.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 5,
+        "d": 3
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 7.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 8.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "TntCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 3,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 3,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 1,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -3,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -3,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -1,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 3,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 3,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 1,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 1,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -3,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -3,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -1,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": -1,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 7,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 7,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_3",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "ColumnCylinder_1",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPink_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPink_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPink_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPink_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 7.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -5,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -4,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 4,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 2.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 3.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 4.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 5.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 6.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 7.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 5,
+        "y": 8.5,
+        "z": 13
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -1,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 5,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -5,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 1,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -4,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 2,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -3,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 3,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": -2,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarYellow_1",
+      "Position": {
+        "x": 4,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -5,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 1,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 2,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -1,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 5,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -5,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 1,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": -4,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarRed_1",
+      "Position": {
+        "x": 2,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -2,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 4,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -1,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 5,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -5,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 1,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -4,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 2,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarOrange_1",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 5,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -5,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -4,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 2,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -3,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 3,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -2,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 4,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -1,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 5,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": -5,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarBlue_1",
+      "Position": {
+        "x": 1,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -1,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 5,
+        "y": 3.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -5,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 1,
+        "y": 4.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -3,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 3,
+        "y": 6.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -2,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 4,
+        "y": 7.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": -1,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "JamJarPurple_1",
+      "Position": {
+        "x": 5,
+        "y": 8.5,
+        "z": 12
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  ]
+}

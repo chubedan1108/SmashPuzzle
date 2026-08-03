@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 869115159, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: PlayPopup_HeaderBack_MaterialPalette
+  m_EditorClassIdentifier:
+  m_configs:
+  - Key: 0
+    Value: {fileID: 2100000, guid: fcc0acaaac5649f468c0d07ebfd41e8e, type: 2}
+  - Key: 1
+    Value: {fileID: 2100000, guid: eaeca347cd5255d44933e6db1fffbe45, type: 2}
+  - Key: 2
+    Value: {fileID: 2100000, guid: 9fdc907664a91754885a118b84cf5177, type: 2}
+  m_defaultConfig: {fileID: 2100000, guid: fcc0acaaac5649f468c0d07ebfd41e8e, type: 2}

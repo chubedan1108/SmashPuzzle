@@ -1,0 +1,725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1936716176, guid: 19143ba01267057c19234049a800a971, type: 3}
+  m_Name: Haptic_WellDoneFireworks
+  m_EditorClassIdentifier:
+  Timeline:
+    TimeScale: 1
+    Events:
+    - Time: 0
+      Type: 5
+      Intensity: 0.874
+      Sharpness: 0.393
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.02
+      Type: 5
+      Intensity: 0.898
+      Sharpness: 0.492
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.25
+      Type: 5
+      Intensity: 0.934
+      Sharpness: 0.235
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.3
+      Type: 10
+      Intensity: 0.575
+      Sharpness: 0.656
+      Duration: 0.8
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.47
+      Type: 5
+      Intensity: 0.949
+      Sharpness: 0.94
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.67
+      Type: 5
+      Intensity: 0.821
+      Sharpness: 0.847
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.79
+      Type: 5
+      Intensity: 0.937
+      Sharpness: 0.989
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 0.83
+      Type: 5
+      Intensity: 0.983
+      Sharpness: 0.835
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    - Time: 1.09
+      Type: 5
+      Intensity: 1
+      Sharpness: 0.926
+      Duration: 0.1
+      SubHapticAsset: {fileID: 0}
+      IntensityCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SharpnessCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Count: 4
+    UseCurve: 1
+    IntensityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.0071942
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23511332
+        value: 1.0046499
+        inSlope: -0.82223934
+        outSlope: -0.82223934
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13712072
+        outWeight: 0.04144144
+      - serializedVersion: 3
+        time: 0.34548342
+        value: 0.5904378
+        inSlope: -1.6733216
+        outSlope: -1.6733216
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.48294342
+        value: 0.29907325
+        inSlope: -1.6243699
+        outSlope: -1.6243699
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.56191784
+        value: 0.35332745
+        inSlope: 3.1902404
+        outSlope: 3.1902404
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5977989
+        value: 0.14797068
+        inSlope: 0.68104666
+        outSlope: 0.68104666
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.71265054
+        value: 0.22811638
+        inSlope: -2.5588222
+        outSlope: -2.5588222
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.7659128
+        value: 0.3935317
+        inSlope: -0.679419
+        outSlope: -0.679419
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.85115856
+        value: 0.17334977
+        inSlope: -0.29561183
+        outSlope: -0.29561183
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.93467546
+        value: 0.39640266
+        inSlope: 0.018929726
+        outSlope: 0.018929726
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0489318
+        value: 0.16304246
+        inSlope: -2.99406
+        outSlope: -2.99406
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1116071
+        value: -0.006397128
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SharpnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0018171482
+        value: 0.0047696615
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.38262507
+        value: -0.6123377
+        inSlope: -0.66746914
+        outSlope: -0.66746914
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.12756294
+      - serializedVersion: 3
+        time: 0.42290613
+        value: 0.01018247
+        inSlope: -0.040250592
+        outSlope: -0.040250592
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.06611299
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.54790074
+        value: -0.4035389
+        inSlope: -1.5582851
+        outSlope: -1.5582851
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.63721824
+        value: -0.11721778
+        inSlope: -1.0984262
+        outSlope: -1.0984262
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.76022017
+        value: -0.46796915
+        inSlope: -7.7034235
+        outSlope: -7.7034235
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9057586
+        value: -0.25740042
+        inSlope: -1.480612
+        outSlope: -1.480612
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.031928
+        value: -0.6273948
+        inSlope: -1.6123368
+        outSlope: -1.6123368
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.198303
+        value: -0.44687545
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    RenderSettings:
+      CurveSampleCount: 4096
+      CurveApproximationErrorThreshold: 0.025
+      AndroidIntensityExponent: 2
+    m_render:
+      Ahaps:
+      - "{\n    \"Version\": \"1.0\",\n    \"Pattern\": [\n        {\n            \"Event\": {\n                \"Time\": 0.0,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.699200034\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.393\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.02,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.7184\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.492\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.25,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.7472\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.235\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.3,\n                \"EventType\": \"HapticContinuous\",\n                \"EventDuration\": 0.8,\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.46\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.656\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.47,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.759200037\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.94\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.67,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.6568\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.847\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.79,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.7496\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.989\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 0.83,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.7864\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.835\n                    }\n                ]\n            }\n        },\n        {\n            \"Event\": {\n                \"Time\": 1.09,\n                \"EventType\": \"HapticTransient\",\n                \"EventParameters\": [\n                    {\n                        \"ParameterID\": \"HapticIntensity\",\n                        \"ParameterValue\": 0.8\n                    },\n                    {\n                        \"ParameterID\": \"HapticSharpness\",\n                        \"ParameterValue\": 0.926\n                    }\n                ]\n            }\n        },\n        {\n            \"ParameterCurve\": {\n                \"ParameterID\": \"HapticIntensityControl\",\n                \"Time\": 0.0,\n                \"ParameterCurveControlPoints\": [\n                    {\n                        \"Time\": 0.0,\n                        \"ParameterValue\": 1.0\n                    },\n                    {\n                        \"Time\": 0.235113323,\n                        \"ParameterValue\": 1.0\n                    },\n                    {\n                        \"Time\": 0.345483422,\n                        \"ParameterValue\": 0.5904378\n                    },\n                    {\n                        \"Time\": 0.482943416,\n                        \"ParameterValue\": 0.299073249\n                    },\n                    {\n                        \"Time\": 0.561917841,\n                        \"ParameterValue\": 0.353327453\n                    },\n                    {\n                        \"Time\": 0.5977989,\n                        \"ParameterValue\": 0.147970676\n                    },\n                    {\n                        \"Time\": 0.712650537,\n                        \"ParameterValue\": 0.228116378\n                    },\n                    {\n                        \"Time\": 0.7659128,\n                        \"ParameterValue\": 0.3935317\n                    },\n                    {\n                        \"Time\": 0.851158559,\n                        \"ParameterValue\": 0.173349768\n                    },\n                    {\n                        \"Time\": 0.934675455,\n                        \"ParameterValue\": 0.396402657\n                    },\n                    {\n                        \"Time\": 1.04893184,\n                        \"ParameterValue\": 0.163042456\n                    },\n                    {\n                        \"Time\": 1.11160707,\n                        \"ParameterValue\": 0.0\n                    }\n                ]\n            }\n        },\n        {\n            \"ParameterCurve\": {\n                \"ParameterID\": \"HapticSharpnessControl\",\n                \"Time\": 0.0,\n                \"ParameterCurveControlPoints\": [\n                    {\n                        \"Time\": 0.0,\n                        \"ParameterValue\": 0.0047341357\n                    },\n                    {\n                        \"Time\": 0.382625073,\n                        \"ParameterValue\": -0.6123377\n                    },\n                    {\n                        \"Time\": 0.422906131,\n                        \"ParameterValue\": 0.01018247\n                    },\n                    {\n                        \"Time\": 0.547900736,\n                        \"ParameterValue\": -0.4035389\n                    },\n                    {\n                        \"Time\": 0.637218237,\n                        \"ParameterValue\": -0.117217779\n                    },\n                    {\n                        \"Time\": 0.76022017,\n                        \"ParameterValue\": -0.467969149\n                    },\n                    {\n                        \"Time\": 0.9057586,\n                        \"ParameterValue\": -0.257400423\n                    },\n                    {\n                        \"Time\": 1.031928,\n                        \"ParameterValue\": -0.6273948\n                    },\n                    {\n                        \"Time\": 1.198303,\n                        \"ParameterValue\": -0.446875453\n                    }\n                ]\n            }\n        }\n    ]\n}"
+      Waveforms:
+      - Timings: 14000000000000001400000000000000d2000000000000000a000000000000000a000000000000001e000000000000000f000000000000001900000000000000320000000000000032000000000000001e000000000000000f000000000000000500000000000000b40000000000000019000000000000005f000000000000000a000000000000000a0000000000000005000000000000000f00000000000000140000000000000041000000000000007d00000000000000
+        Amplitudes: 7e0000008500000000000000880000007f000000000000001f00000019000000130000000d0000000700000027000000210000000400000014000000030000002c000000230000001c00000003000000110000000100000007000000
+  m_cooldownSeconds: 0.1

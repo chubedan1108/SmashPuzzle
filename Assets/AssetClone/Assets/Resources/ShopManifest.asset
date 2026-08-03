@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -671597377, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: ShopManifest
+  m_EditorClassIdentifier:
+  Manifest:
+    Entries:
+    - ProductId: com.cyphergames.royalsmash.goldoffer1
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 1000
+    - ProductId: com.cyphergames.royalsmash.goldoffer2
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 5000
+    - ProductId: com.cyphergames.royalsmash.goldoffer3
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 10000
+    - ProductId: com.cyphergames.royalsmash.goldoffer4
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 25000
+    - ProductId: com.cyphergames.royalsmash.goldoffer5
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 50000
+    - ProductId: com.cyphergames.royalsmash.goldoffer6
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 100000
+    - ProductId: com.cyphergames.royalsmash.specialoffer1
+      localizationKey: special_offer
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 1
+      RemoveAdsMinutes: 60
+      AdRemovalVisibility: 1
+      HideAfterPurchaseKey: special_offer
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 1000
+      - Type: 2
+        Amount: 1
+      - Type: 3
+        Amount: 1
+      - Type: 4
+        Amount: 60
+    - ProductId: com.cyphergames.royalsmash.specialoffer2
+      localizationKey: special_offer
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 2
+      HideAfterPurchaseKey: special_offer
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 1000
+      - Type: 2
+        Amount: 1
+      - Type: 3
+        Amount: 1
+      - Type: 4
+        Amount: 60
+    - ProductId: com.cyphergames.royalsmash.bundle1
+      localizationKey: jesters_pouch
+      Consumable: 1
+      PriceUSD: 5
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 2000
+      - Type: 2
+        Amount: 1
+      - Type: 4
+        Amount: 60
+    - ProductId: com.cyphergames.royalsmash.bundle2
+      localizationKey: knights_chest
+      Consumable: 1
+      PriceUSD: 10
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 3000
+      - Type: 2
+        Amount: 2
+      - Type: 3
+        Amount: 1
+      - Type: 4
+        Amount: 120
+    - ProductId: com.cyphergames.royalsmash.bundle3
+      localizationKey: queens_vault
+      Consumable: 1
+      PriceUSD: 20
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 10000
+      - Type: 2
+        Amount: 4
+      - Type: 3
+        Amount: 2
+      - Type: 4
+        Amount: 240
+    - ProductId: com.cyphergames.royalsmash.bundle4
+      localizationKey: kings_treasure
+      Consumable: 1
+      PriceUSD: 35
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 20000
+      - Type: 2
+        Amount: 6
+      - Type: 3
+        Amount: 3
+      - Type: 4
+        Amount: 480
+    - ProductId: com.cyphergames.royalsmash.bundle5
+      localizationKey: crowns_safe
+      Consumable: 1
+      PriceUSD: 85
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 1
+      RemoveAdsMinutes: 10080
+      AdRemovalVisibility: 1
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 60000
+      - Type: 2
+        Amount: 12
+      - Type: 3
+        Amount: 6
+      - Type: 4
+        Amount: 720
+    - ProductId: com.cyphergames.royalsmash.bundle6
+      localizationKey: royal_fortune
+      Consumable: 1
+      PriceUSD: 100
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 1
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 1
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 70000
+      - Type: 2
+        Amount: 10
+      - Type: 3
+        Amount: 10
+      - Type: 4
+        Amount: 1440
+    - ProductId: com.cyphergames.royalsmash.bundle7
+      localizationKey: crowns_safe
+      Consumable: 1
+      PriceUSD: 85
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 2
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 60000
+      - Type: 2
+        Amount: 12
+      - Type: 3
+        Amount: 6
+      - Type: 4
+        Amount: 720
+    - ProductId: com.cyphergames.royalsmash.bundle8
+      localizationKey: royal_fortune
+      Consumable: 1
+      PriceUSD: 100
+      ShowInList: 1
+      IsSpecialOffer: 1
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 2
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 70000
+      - Type: 2
+        Amount: 10
+      - Type: 3
+        Amount: 10
+      - Type: 4
+        Amount: 1440
+    - ProductId: com.cyphergames.royalsmash.levelendoffer1
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 0
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 1
+      IsProgressOffer: 0
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards:
+      - Type: 0
+        Amount: 1000
+      - Type: 2
+        Amount: 1
+    - ProductId: com.cyphergames.royalsmash.progressoffer
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 0
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 1
+      ShowToPayersOnly: 0
+      Icon: {fileID: 0}
+      Rewards: []
+    - ProductId: com.cyphergames.royalsmash.progressoffer1
+      localizationKey:
+      Consumable: 1
+      PriceUSD: 0.99
+      ShowInList: 0
+      IsSpecialOffer: 0
+      RemovesAds: 0
+      RemoveAdsMinutes: 0
+      AdRemovalVisibility: 0
+      HideAfterPurchaseKey:
+      LevelEndOffer: 0
+      IsProgressOffer: 1
+      ShowToPayersOnly: 1
+      Icon: {fileID: 0}
+      Rewards: []

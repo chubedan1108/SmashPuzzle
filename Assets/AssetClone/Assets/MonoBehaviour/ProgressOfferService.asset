@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -703070602, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: ProgressOfferService
+  m_EditorClassIdentifier:
+  m_currentLevel: {fileID: 11400000, guid: 58710cff5967f3447bcb49581aff15d5, type: 2}
+  m_rewardConfig: {fileID: 11400000, guid: 8523bdb63c9e77d4f9a8860da743e467, type: 2}
+  m_payerRewardConfig: {fileID: 11400000, guid: e13ef7991d61def4fa7a48a88cc208f5, type: 2}

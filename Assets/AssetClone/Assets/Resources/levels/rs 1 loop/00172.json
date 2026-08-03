@@ -1,0 +1,936 @@
+{
+  "Version": 1,
+  "MoveCount": 25,
+  "Difficulty": 0,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 10,
+        "d": 4
+      }
+    },
+    {
+      "Id": "Blocker_L",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": -2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106829,
+        "w": 0.707106709
+      },
+      "Scale": {
+        "x": 1.28000009,
+        "y": 1.28000009,
+        "z": 1.27999997
+      },
+      "Custom": {
+        "rotSpeed": -80,
+        "travel": {
+          "x": -6,
+          "y": 0,
+          "z": 0
+        },
+        "travelDur": 2
+      }
+    },
+    {
+      "Id": "Blocker_L",
+      "Position": {
+        "x": -3,
+        "y": 8,
+        "z": -3.5
+      },
+      "Rotation": {
+        "x": 2.94270275E-09,
+        "y": -1.49011612E-08,
+        "z": -0.707106829,
+        "w": 0.707106709
+      },
+      "Scale": {
+        "x": 1.28000009,
+        "y": 1.28000009,
+        "z": 1.27999997
+      },
+      "Custom": {
+        "rotSpeed": 80,
+        "travel": {
+          "x": 6,
+          "y": 0,
+          "z": 0
+        },
+        "travelDur": 2
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -4,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": -0.707106769,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106829
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 2,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": -0.707106769,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106829
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -2,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": -0.707106769,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106829
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 4,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": -0.707106769,
+        "y": 0,
+        "z": 0,
+        "w": 0.707106829
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": -3,
+        "y": 8.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 0,
+        "y": 8.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "IceSquare_3",
+      "Position": {
+        "x": 3,
+        "y": 8.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 4,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 4,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 4,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 4,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 4,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 7,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 7,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 7,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 7,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 7,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 7,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 7,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 7,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 7,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 7,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -4,
+        "y": 7,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 2,
+        "y": 7,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 4,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": -2,
+        "y": 4,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxCylinder_2",
+      "Position": {
+        "x": 4,
+        "y": 4,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 1.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 2.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 4.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 7.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "IceSquare_1",
+      "Position": {
+        "x": 0,
+        "y": 6.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  ]
+}

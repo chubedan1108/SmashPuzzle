@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -395462249, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+  m_Name: TMP Settings
+  m_EditorClassIdentifier:
+  assetVersion: 2
+  m_TextWrappingMode: 1
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  m_enableTintAllSprites: 0
+  m_enableParseEscapeCharacters: 1
+  m_EnableRaycastTarget: 1
+  m_GetFontFeaturesAtRuntime: 1
+  m_missingGlyphCharacter: 0
+  m_ClearDynamicDataOnBuild: 1
+  m_warningsDisabled: 0
+  m_defaultFontAsset: {fileID: 11400000, guid: 85068081e19e7a94394d7bb812509098, type: 2}
+  m_defaultFontAssetPath: Fonts & Materials/
+  m_defaultFontSize: 36
+  m_defaultAutoSizeMinRatio: 0.5
+  m_defaultAutoSizeMaxRatio: 2
+  m_defaultTextMeshProTextContainerSize: {x: 20, y: 5}
+  m_defaultTextMeshProUITextContainerSize: {x: 200, y: 50}
+  m_autoSizeTextContainer: 0
+  m_IsTextObjectScaleStatic: 0
+  m_fallbackFontAssets:
+  - {fileID: 11400000, guid: cfb4fd9013a7d7249be175f4299c1d7e, type: 2}
+  m_matchMaterialPreset: 1
+  m_HideSubTextObjects: 0
+  m_defaultSpriteAsset: {fileID: 11400000, guid: f78f58490f31e5b459335260182704dd, type: 2}
+  m_defaultSpriteAssetPath: Sprite Assets/
+  m_enableEmojiSupport: 1
+  m_MissingCharacterSpriteUnicode: 0
+  m_EmojiFallbackTextAssets:
+  - {fileID: 11400000, guid: 811a7487fe83e4c41b2b29d858083def, type: 2}
+  m_defaultColorGradientPresetsPath: Color Gradient Presets/
+  m_defaultStyleSheet: {fileID: 11400000, guid: f76f9ef2015aa844aa551afee57d30be, type: 2}
+  m_StyleSheetsResourcePath:
+  m_leadingCharacters: {fileID: 4900000, guid: 0dc73c9a87553794e9df1f8286ccef60, type: 3}
+  m_followingCharacters: {fileID: 4900000, guid: 47f730ffd89b6ec43b66d8cd7bf130c6, type: 3}
+  m_UseModernHangulLineBreakingRules: 0

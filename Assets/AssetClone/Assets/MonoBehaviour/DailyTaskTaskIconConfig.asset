@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1259913652, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: DailyTaskTaskIconConfig
+  m_EditorClassIdentifier:
+  m_kindDefaults:
+  - Kind: 0
+    Icon: {fileID: 21300000, guid: 98928c2158f6a844c91d6c2c18a824b9, type: 2}
+  - Kind: 2
+    Icon: {fileID: 21300000, guid: 7b3ed03e731a43546a9f47e65234a707, type: 2}
+  - Kind: 3
+    Icon: {fileID: 21300000, guid: 586c2afff68d14645a110c46ca8dd5ac, type: 2}
+  - Kind: 4
+    Icon: {fileID: 21300000, guid: 9458481b215bb9c459a39aee6442c788, type: 2}
+  - Kind: 5
+    Icon: {fileID: 21300000, guid: 76f0542309c94934fbcc4661f5b33b22, type: 2}
+  - Kind: 6
+    Icon: {fileID: 21300000, guid: f2529f7d4141eae45ad25e10aa837c31, type: 2}
+  - Kind: 7
+    Icon: {fileID: 21300000, guid: 44f518e235c8c7d4aa2e670e0be5541e, type: 2}
+  - Kind: 8
+    Icon: {fileID: 21300000, guid: 924a11096478672488e88f6c44a3442a, type: 2}
+  m_passLevelSpecialOverrides:
+  - Difficulty: 0
+    Icon: {fileID: 21300000, guid: 98928c2158f6a844c91d6c2c18a824b9, type: 2}
+  - Difficulty: 1
+    Icon: {fileID: 21300000, guid: 05590242d203d644f9730e56250cddd1, type: 2}
+  - Difficulty: 2
+    Icon: {fileID: 21300000, guid: a3e6e468355558e4ea4531f3826a4d97, type: 2}
+  m_breakObstacleSpecialOverrides:
+  - Obstacle: 2
+    Icon: {fileID: 21300000, guid: e487c761696f8e64db202350874d86a5, type: 2}

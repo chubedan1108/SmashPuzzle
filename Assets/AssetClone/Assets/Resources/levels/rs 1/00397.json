@@ -1,0 +1,1462 @@
+{
+  "Version": 1,
+  "MoveCount": 37,
+  "Difficulty": 1,
+  "BackgroundIndex": -1,
+  "Entities": [
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 0,
+        "y": 2,
+        "z": 5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 10,
+        "d": 4
+      }
+    },
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": -3,
+        "y": 2,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 3,
+        "d": 1
+      }
+    },
+    {
+      "Id": "Table_Rect",
+      "Position": {
+        "x": 3,
+        "y": 2,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "Custom": {
+        "w": 3,
+        "d": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": 1.5,
+        "y": 6.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": -1.5,
+        "y": 6.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": 3.5,
+        "y": 6.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": -3.5,
+        "y": 6.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 5.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 2.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 1.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -1.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 2.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 3.5,
+        "z": 4.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 3.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 2.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 0.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -0.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -2.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 4.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -4.5,
+        "y": 2.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": 2.5,
+        "y": 4.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "CanSquare_5",
+      "Position": {
+        "x": -2.5,
+        "y": 4.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.707106888,
+        "w": 0.707106709
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 1.5,
+        "y": 9.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -1.5,
+        "y": 9.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 3.5,
+        "y": 9.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -3.5,
+        "y": 9.5,
+        "z": 5.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 0.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -0.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 2.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -2.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 4.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -4.5,
+        "y": 3.5,
+        "z": 6.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 0.5,
+        "y": 6.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -0.5,
+        "y": 6.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 4.5,
+        "y": 6.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -4.5,
+        "y": 6.5,
+        "z": 3.5
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -2,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": -4,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": -3,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -3,
+        "y": 3.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": -3,
+        "y": 4.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 4,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCylinder_1",
+      "Position": {
+        "x": 2,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "BoxSquare_1",
+      "Position": {
+        "x": 3,
+        "y": 2.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 3,
+        "y": 3.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "Id": "CanCone_1",
+      "Position": {
+        "x": 3,
+        "y": 4.5,
+        "z": 2
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 216541139, guid: 783b062f9ee30dfe92252086cf194a97, type: 3}
+  m_Name: Bool_MusicEnabled
+  m_EditorClassIdentifier:
+  IsPersistent: 1
+  UseConfig: 1
+  IsSynced: 0
+  DisplayGroup:
+  DisplayName:
+  m_configName:
+  DisplayOrder: 0
+  Path: Assets/Internal/Variables/Persistent/Bool_MusicEnabled.asset
+  LogChanges: 0
+  m_defaultValue: 1

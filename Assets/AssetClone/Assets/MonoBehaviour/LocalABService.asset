@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1708452919, guid: 9d21a17611fc41f54314f31dc97c4914, type: 3}
+  m_Name: LocalABService
+  m_EditorClassIdentifier:
+  Tests:
+  - {fileID: 11400000, guid: 59555efe2b1a17a4ab8058cccaf71f1b, type: 2}

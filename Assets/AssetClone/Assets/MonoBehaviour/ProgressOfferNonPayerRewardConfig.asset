@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1544191152, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: ProgressOfferNonPayerRewardConfig
+  m_EditorClassIdentifier:
+  m_stages:
+  - TargetWins: 1
+    Rewards:
+    - Type: 0
+      Amount: 50
+  - TargetWins: 2
+    Rewards:
+    - Type: 0
+      Amount: 100
+  - TargetWins: 3
+    Rewards:
+    - Type: 0
+      Amount: 150
+  - TargetWins: 5
+    Rewards:
+    - Type: 0
+      Amount: 200
+  - TargetWins: 10
+    Rewards:
+    - Type: 0
+      Amount: 250
+  - TargetWins: 15
+    Rewards:
+    - Type: 0
+      Amount: 450
+  - TargetWins: 25
+    Rewards:
+    - Type: 0
+      Amount: 1000
+  - TargetWins: 40
+    Rewards:
+    - Type: 0
+      Amount: 1100
+  - TargetWins: 60
+    Rewards:
+    - Type: 0
+      Amount: 1200
+  - TargetWins: 100
+    Rewards:
+    - Type: 0
+      Amount: 1500

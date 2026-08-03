@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 595545915, guid: 19143ba01267057c19234049a800a971, type: 3}
+  m_Name: Vibration_Light
+  m_EditorClassIdentifier:
+  CopyFrom: {fileID: 0}
+  AndroidPre26Duration: 32
+  AndroidPre26Script:
+  AndroidPost26Duration: 10
+  AndroidPost26Amplitude: 76
+  AndroidPost26Script:
+  HapticTimelineAsset: {fileID: 0}
+  IOSIntensity: 0.505
+  IOSSharpness: 0.404
+  IOSScript:
+  RepeatMode: 0
+  FixedCount: 2
+  FixedCountIntervalMs: 65
+  IntervalCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 65
+      inSlope: 0
+      outSlope: 45
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 110
+      inSlope: 45
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  IntervalCurveDefaultDurationMs: 250

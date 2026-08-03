@@ -1,0 +1,203 @@
+LevelEnd_13.png
+	size: 2048, 2048
+	filter: Linear, Linear
+1.finger_L
+	bounds: 1388, 341, 126, 101
+	offsets: 11, 0, 137, 101
+	rotate: 90
+2.finger_L
+	bounds: 1946, 1273, 97, 148
+	offsets: 1, 0, 98, 190
+3.finger_L
+	bounds: 1929, 895, 117, 118
+	offsets: 0, 0, 117, 120
+Arm_L_pose_4
+	bounds: 1332, 811, 232, 171
+Arm_L_pose_4_hand
+	bounds: 1566, 791, 192, 196
+	offsets: 1, 1, 194, 198
+Arm_L_pose_4_sleeve
+	bounds: 1858, 1015, 174, 188
+	offsets: 1, 1, 176, 191
+	rotate: 90
+Arm_R_Pose_1
+	bounds: 1499, 455, 169, 204
+	offsets: 1, 6, 172, 212
+	rotate: 90
+Arm_R_Pose_1_Hand
+	bounds: 832, 975, 185, 245
+	offsets: 1, 1, 187, 247
+	rotate: 90
+Arm_R_Pose_1_Sleeve_1
+	bounds: 867, 421, 180, 114
+	offsets: 2, 1, 183, 116
+Arm_R_Pose_1_Sleeve_2
+	bounds: 1946, 1423, 176, 90
+	offsets: 2, 2, 179, 93
+	rotate: 90
+Closed_ARM_L
+	bounds: 877, 748, 200, 225
+	offsets: 2, 0, 203, 225
+Closed_ARM_L_Hand
+	bounds: 1076, 508, 167, 210
+	offsets: 0, 0, 167, 211
+	rotate: 90
+Closed_ARM_L_Sleeve_1
+	bounds: 1760, 801, 191, 167
+	offsets: 2, 2, 194, 171
+	rotate: 90
+Closed_ARM_L_Sleeve_2
+	bounds: 1542, 989, 180, 142
+	offsets: 1, 1, 182, 144
+Eyelash_Closed
+	bounds: 1617, 1133, 216, 42
+Eyes_Closed_BG
+	bounds: 1902, 1788, 258, 144
+	offsets: 47, 7, 325, 186
+	rotate: 90
+Mauth_Open_Front
+	bounds: 469, 929, 361, 234
+	offsets: 0, 0, 361, 241
+P3_1.Finger_R
+	bounds: 1902, 1601, 185, 142
+	offsets: 1, 8, 188, 155
+	rotate: 90
+P3_Arm_L_Shadow
+	bounds: 1226, 344, 160, 123
+	offsets: 15, 15, 188, 160
+P3_Body_Shadow
+	bounds: 2, 594, 435, 534
+P3_Boots
+	bounds: 943, 1162, 440, 389
+	offsets: 1, 1, 443, 391
+P3_Brow_L
+	bounds: 410, 451, 71, 54
+	offsets: 6, 2, 77, 56
+P3_Brow_R
+	bounds: 410, 372, 77, 40
+	offsets: 2, 4, 86, 45
+	rotate: 90
+P3_Collar_buttons
+	bounds: 1385, 1138, 413, 230
+	offsets: 0, 0, 414, 230
+	rotate: 90
+P3_Collars_Back
+	bounds: 1929, 785, 108, 112
+	offsets: 1, 1, 112, 115
+	rotate: 90
+P3_Collars_Shadow
+	bounds: 2, 4, 337, 157
+	offsets: 10, 5, 362, 193
+P3_Jacket copy
+	bounds: 469, 1564, 529, 482
+	offsets: 0, 8, 529, 490
+P3_Jacket_Shadow
+	bounds: 341, 3, 120, 158
+	offsets: 5, 2, 131, 165
+P3_Jacket_arm_L
+	bounds: 1519, 626, 163, 206
+	rotate: 90
+P3_Jacket_arm_R
+	bounds: 877, 537, 209, 197
+	offsets: 1, 1, 212, 199
+	rotate: 90
+P3_Mouth_Front
+	bounds: 642, 489, 223, 182
+P3_Mouth_inside
+	bounds: 1079, 814, 251, 166
+P3_Teeth
+	bounds: 1727, 635, 154, 57
+	offsets: 1, 2, 156, 60
+	rotate: 90
+P3_Though
+	bounds: 1909, 718, 107, 65
+	offsets: 2, 1, 110, 68
+P3_Wand
+	bounds: 2, 1130, 465, 916
+	offsets: 1, 0, 466, 918
+P3_ear_front
+	bounds: 1079, 677, 223, 135
+	offsets: 0, 6, 223, 141
+P3_jacket_sleeve_L_back
+	bounds: 1327, 984, 152, 213
+	rotate: 90
+P3_jacket_sleeve_L_front
+	bounds: 1304, 663, 146, 213
+	rotate: 90
+P3_jacket_sleeve_R
+	bounds: 1288, 469, 192, 209
+	rotate: 90
+P3_palm_R
+	bounds: 1079, 982, 246, 178
+	offsets: 2, 1, 250, 180
+P4_Hat
+	bounds: 1520, 1577, 380, 469
+	offsets: 1, 2, 382, 472
+P4_Hat_Shadow
+	bounds: 1617, 1177, 234, 398
+	offsets: 28, 42, 264, 442
+P4_Hat_Tape
+	bounds: 439, 598, 201, 329
+	offsets: 1, 1, 203, 332
+P5_Cloak_Back
+	bounds: 469, 1165, 397, 472
+	rotate: 90
+P5_Collars_Shadow
+	bounds: 1853, 1191, 384, 91
+	offsets: 13, 1, 406, 103
+	rotate: 90
+P5_Eye_inside_L
+	bounds: 1916, 623, 93, 108
+	offsets: 2, 2, 96, 111
+	rotate: 90
+P5_Eye_inside_R
+	bounds: 1651, 335, 85, 118
+	offsets: 18, 31, 132, 164
+P5_Eye_iris_L
+	bounds: 410, 251, 42, 55
+	offsets: 1, 1, 44, 57
+P5_Eye_iris_R
+	bounds: 410, 194, 41, 55
+	offsets: 1, 1, 43, 57
+P5_Eye_shine_L
+	bounds: 1288, 663, 12, 14
+	offsets: 2, 1, 16, 16
+	rotate: 90
+P5_Eye_shine_R
+	bounds: 1909, 785, 14, 14
+	offsets: 2, 1, 17, 16
+P5_Eyebrow
+	bounds: 410, 308, 62, 43
+	offsets: 2, 1, 66, 45
+	rotate: 90
+P5_Eyelash_l
+	bounds: 410, 507, 85, 82
+	offsets: 1, 1, 87, 84
+	rotate: 90
+P5_Eyelash_r
+	bounds: 1946, 1191, 72, 80
+	offsets: 1, 1, 74, 82
+P5_Jacket_Sleeve_L_Shadow
+	bounds: 1491, 342, 158, 111
+	offsets: 10, 19, 186, 145
+P5_Nose
+	bounds: 1786, 703, 121, 96
+	offsets: 2, 2, 132, 100
+P5_P5_Head_back
+	bounds: 1000, 1553, 518, 493
+P5_Wand_Top
+	bounds: 642, 673, 254, 233
+	offsets: 0, 3, 254, 237
+	rotate: 90
+StaffLight
+	bounds: 2, 163, 406, 429
+	offsets: 79, 46, 556, 540
+arm_L
+	bounds: 1724, 994, 132, 137
+	offsets: 17, 0, 150, 137
+jacket_sleeve_L_shadow_11
+	bounds: 1786, 637, 64, 128
+	offsets: 3, 3, 76, 134
+	rotate: 90
+palm_L_1
+	bounds: 1049, 350, 175, 156

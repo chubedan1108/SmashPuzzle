@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506086122, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: Gameplay_Moves_Frame_SpritePalette
+  m_EditorClassIdentifier:
+  m_configs:
+  - Key: 0
+    Value: {fileID: 21300000, guid: ecdc97048c8508d4e90d7fd05732167c, type: 2}
+  - Key: 1
+    Value: {fileID: 21300000, guid: fede59549224eb542af4409aed45e61e, type: 2}
+  - Key: 2
+    Value: {fileID: 21300000, guid: 904d4c5c01f06d54c981e7dd74801066, type: 2}
+  m_defaultConfig: {fileID: 21300000, guid: ecdc97048c8508d4e90d7fd05732167c, type: 2}

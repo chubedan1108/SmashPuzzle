@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506086122, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: PlayPopup_BoosterBG_SpritePalette
+  m_EditorClassIdentifier:
+  m_configs:
+  - Key: 0
+    Value: {fileID: 21300000, guid: 8aa974632682b13429de6be05f923a6d, type: 2}
+  - Key: 1
+    Value: {fileID: 21300000, guid: 8aa974632682b13429de6be05f923a6d, type: 2}
+  - Key: 2
+    Value: {fileID: 21300000, guid: 5acb01ee7225bbf4f83bc383d87f3a49, type: 2}
+  m_defaultConfig: {fileID: 21300000, guid: 8aa974632682b13429de6be05f923a6d, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 50087895, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: Booster_BigCannon
+  m_EditorClassIdentifier:
+  m_id: bigball
+  m_icon: {fileID: 0}
+  m_defaultOwned: 3
+  m_resourceType: 2
+  m_nameKey: booster.big_cannon.name
+  m_cannonScale: 1.5
+  m_cannonArmTrigger:
+  m_bigBallPrefab: {fileID: 1709254077376921, guid: b260730f62e363d4babf0c36526fcb06, type: 2}
+  m_fireFeedback:
+    Sfx: {fileID: 0}
+    Haptic: {fileID: 11400000, guid: d5cd06162f4814141909ebb402899329, type: 2}
+    AlternativeHaptics: []
+    ShakeMode: 2
+    PunchSizeMode: 0
+  m_postFireHold: 0.5

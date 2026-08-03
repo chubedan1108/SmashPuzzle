@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506086122, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: Gameplay_Settings_SpritePalette
+  m_EditorClassIdentifier:
+  m_configs:
+  - Key: 0
+    Value: {fileID: 21300000, guid: cf29bad3e16e5ab43a0a0c805bacf535, type: 2}
+  - Key: 1
+    Value: {fileID: 21300000, guid: cc7f702a82b39a34d972774ad91f1276, type: 2}
+  - Key: 2
+    Value: {fileID: 21300000, guid: ea7f797ee2675da48b48803efbc57911, type: 2}
+  m_defaultConfig: {fileID: 21300000, guid: cf29bad3e16e5ab43a0a0c805bacf535, type: 2}

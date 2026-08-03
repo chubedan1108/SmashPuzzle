@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1588286231, guid: 3260853f7ae342990999c6028a9d5018, type: 3}
+  m_Name: AppLovinMaxService
+  m_EditorClassIdentifier:
+  m_interstitialDecisionScript: {fileID: 11400000, guid: 457d7cfde93dbe244bef8ac0188b501f, type: 2}
+  m_debugDecisionVariants:
+  - {fileID: 11400000, guid: 2d6723c59bdbdd64ab5239dcf382ed79, type: 2}
+  - {fileID: 11400000, guid: 7676c4206c6f2cc4cbe1fe81e4f157a6, type: 2}
+  - {fileID: 11400000, guid: a42c094b8c6d7b64f86ccfa997a0de73, type: 2}
+  - {fileID: 11400000, guid: 3e1d7175d7ae1c54184183b1a86b8792, type: 2}

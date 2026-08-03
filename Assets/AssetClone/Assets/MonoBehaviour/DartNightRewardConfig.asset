@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1066514213, guid: 6c8e168389b232d7cc78427b51f93153, type: 3}
+  m_Name: DartNightRewardConfig
+  m_EditorClassIdentifier:
+  m_steps:
+  - TargetScore: 150
+    Rewards:
+    - Type: 0
+      Amount: 75
+  - TargetScore: 350
+    Rewards:
+    - Type: 0
+      Amount: 100
+  - TargetScore: 650
+    Rewards:
+    - Type: 0
+      Amount: 125
+  - TargetScore: 1050
+    Rewards:
+    - Type: 2
+      Amount: 1
+  - TargetScore: 1550
+    Rewards:
+    - Type: 0
+      Amount: 200
+  - TargetScore: 2250
+    Rewards:
+    - Type: 0
+      Amount: 250
+  - TargetScore: 3000
+    Rewards:
+    - Type: 0
+      Amount: 300
+  - TargetScore: 4000
+    Rewards:
+    - Type: 2
+      Amount: 1
+  - TargetScore: 5150
+    Rewards:
+    - Type: 0
+      Amount: 400
+  - TargetScore: 6650
+    Rewards:
+    - Type: 3
+      Amount: 1
+  - TargetScore: 8400
+    Rewards:
+    - Type: 0
+      Amount: 500
+  - TargetScore: 10550
+    Rewards:
+    - Type: 2
+      Amount: 1
+  - TargetScore: 13050
+    Rewards:
+    - Type: 0
+      Amount: 700
+  - TargetScore: 16000
+    Rewards:
+    - Type: 3
+      Amount: 1
+  - TargetScore: 19500
+    Rewards:
+    - Type: 0
+      Amount: 900
+  m_rankRewards:
+  - Rewards:
+    - Type: 0
+      Amount: 1500
+  - Rewards:
+    - Type: 0
+      Amount: 500
+  - Rewards:
+    - Type: 0
+      Amount: 200
