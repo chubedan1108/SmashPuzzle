@@ -8,14 +8,15 @@ TagManager:
   - Ground
   - BrokenPieces
   - Obstacle
+  - Blocker
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - GameInput
   - Water
   - UI
-  - Slingshot
+  - 
   - 
   - 
   - 
