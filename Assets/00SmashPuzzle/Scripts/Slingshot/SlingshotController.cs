@@ -18,6 +18,7 @@ public class SlingshotController : MonoBehaviour
         Vector3 direction = target - transform.position;
         direction.y = 0; // Keep the rotation only on the horizontal plane
         transform.rotation = Quaternion.LookRotation(direction);
+        ObjectPool.Instance.GetObject(PoolType.Bullet).transform.parent = ikPivot; 
     }
     public void HandleOnMouseDown()
     {
