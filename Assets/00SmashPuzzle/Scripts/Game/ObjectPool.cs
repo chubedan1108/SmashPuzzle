@@ -30,6 +30,7 @@ public class ObjectPool : SingletonBase<ObjectPool>
                     for (int i = 0; i < pool.size; i++)
                     {
                         GameObject obj = Instantiate(prefab);
+                        obj.transform.SetParent(pool.parent);
                         obj.SetActive(false);
                         objectPool.Enqueue(obj);
                     }
@@ -92,5 +93,6 @@ public class Pool
 {
     public PoolType type;
     public AssetReference prefab;
+    public Transform parent;
     public int size;
 }
