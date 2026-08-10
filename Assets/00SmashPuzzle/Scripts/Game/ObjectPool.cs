@@ -2,57 +2,52 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
+
 public class ObjectPool : SingletonBase<ObjectPool>
 {
     [SerializeField] private List<Pool> pools;
     private Dictionary<PoolType, Queue<GameObject>> poolDictionary;
-    private Dictionary<PoolType, AsyncOperationHandle<GameObject>> poolHandleDictionary;
+    private Dictionary<PoolType, Transform> poolParentDictionary;
+
     protected override void Awake()
     {
         base.Awake();
-        Initialized();
+        Initialize();
     }
-    private void Initialized()
+
+    private void Initialize()
     {
         poolDictionary = new Dictionary<PoolType, Queue<GameObject>>();
-        poolHandleDictionary = new Dictionary<PoolType, AsyncOperationHandle<GameObject>>();
+        poolParentDictionary = new Dictionary<PoolType, Transform>();
+
         foreach (Pool pool in pools)
         {
-            Queue<GameObject> objectPool = new Queue<GameObject>();
-            AsyncOperationHandle<GameObject> handle = Addressables.LoadAssetAsync<GameObject>(pool.prefab);
-            handle.Completed += _ =>
+            if (pool.prefab == null)
             {
-                if (handle.Status == AsyncOperationStatus.Succeeded)
-                {
-                    GameObject prefab = handle.Result;
-                    for (int i = 0; i < pool.size; i++)
-                    {
-                        GameObject obj = Instantiate(prefab);
-                        obj.transform.SetParent(pool.parent);
-                        obj.SetActive(false);
-                        objectPool.Enqueue(obj);
-                    }
-                }
-                else
-                {
-                    Debug.LogError($"Failed to load prefab for pool type: {pool.type}");
-                }
-                
-            };
+                Debug.LogError($"Prefab is missing for pool type: {pool.type}", this);
+                continue;
+            }
+
+            if (poolDictionary.ContainsKey(pool.type))
+            {
+                Debug.LogError($"Pool type is duplicated: {pool.type}", this);
+                continue;
+            }
+
+            Queue<GameObject> objectPool = new Queue<GameObject>();
+
+            for (int i = 0; i < pool.size; i++)
+            {
+                GameObject obj = Instantiate(pool.prefab, pool.parent);
+                obj.SetActive(false);
+                objectPool.Enqueue(obj);
+            }
+
             poolDictionary.Add(pool.type, objectPool);
-            poolHandleDictionary.Add(pool.type, handle);
+            poolParentDictionary.Add(pool.type, pool.parent);
         }
     }
 
-    private void OnDestroy()
-    {
-        foreach (var handle in poolHandleDictionary.Values)
-        {
-            Addressables.Release(handle);
-        }
-    }
     public GameObject GetObject(PoolType type)
     {
         if (!poolDictionary.ContainsKey(type))
@@ -78,6 +73,7 @@ public class ObjectPool : SingletonBase<ObjectPool>
             Destroy(obj);
             return;
         }
+        obj.transform.SetParent(poolParentDictionary[type], false);
         obj.SetActive(false);
         poolDictionary[type].Enqueue(obj);
     }
@@ -92,7 +88,7 @@ public enum PoolType
 public class Pool
 {
     public PoolType type;
-    public AssetReference prefab;
+    public GameObject prefab;
     public Transform parent;
     public int size;
 }

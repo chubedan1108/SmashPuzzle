@@ -276,7 +276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &149881982
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -361,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 149881981}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 8.1139, y: 16.965, z: 10.6}
+  m_LocalPosition: {x: 8.1139, y: 17, z: 68.7}
   m_LocalScale: {x: 11.896525, y: 1, z: 3.3653102}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1783,7 +1783,7 @@ GameObject:
   - component: {fileID: 1039499262}
   - component: {fileID: 1039499261}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1828,7 +1828,7 @@ Transform:
   m_GameObject: {fileID: 1039499260}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.910475, y: -10.45234, z: 17.977882}
+  m_LocalPosition: {x: 9.910475, y: -1.68, z: 17.977882}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2391,25 +2391,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pools:
   - type: 1
-    prefab:
-      m_AssetGUID: 043bc7f0ae3b8194a955d7753dbc2f2f
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    prefab: {fileID: 6722710165933932476, guid: 043bc7f0ae3b8194a955d7753dbc2f2f, type: 3}
     parent: {fileID: 23730250}
     size: 20
---- !u!114 &1486162105 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8120787162665836500, guid: 043bc7f0ae3b8194a955d7753dbc2f2f, type: 3}
-  m_PrefabInstance: {fileID: 7623463505697702722}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20d819490f7788345a2e502242498d08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1495912511
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +2772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ikPivot: {fileID: 0}
   firePoint: {fileID: 207928015}
-  bulletPrefab: {fileID: 1486162105}
   heightOffset: 0.5
   speed: 50
 --- !u!1001 &7623463505697702722
