@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ObjectPool : SingletonBase<ObjectPool>
 {
-    [SerializeField] private List<Pool> pools;
+    [SerializeField] private List<PoolTemp> pools;
     private Dictionary<PoolType, Queue<GameObject>> poolDictionary;
     private Dictionary<PoolType, Transform> poolParentDictionary;
 
@@ -20,7 +20,7 @@ public class ObjectPool : SingletonBase<ObjectPool>
         poolDictionary = new Dictionary<PoolType, Queue<GameObject>>();
         poolParentDictionary = new Dictionary<PoolType, Transform>();
 
-        foreach (Pool pool in pools)
+        foreach (PoolTemp pool in pools)
         {
             if (pool.prefab == null)
             {
@@ -85,7 +85,7 @@ public enum PoolType
     Bullet,
 }
 [Serializable]
-public class Pool
+public class PoolTemp
 {
     public PoolType type;
     public GameObject prefab;
