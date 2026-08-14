@@ -1,18 +1,27 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SlingshotController : MonoBehaviour
 {
-    [SerializeField] private Transform ikPivot;
+    [SerializeField] private Transform slingshotRoot;
     [SerializeField] private Transform firePoint;
+    [SerializeField, Min(0f)] private float rotationDuration = 1f;
     [Header("Ballistic setting")]
-    [SerializeField] private float heightOffset = 10f;
-    [SerializeField] private float speed = 20f;
+    [FormerlySerializedAs("speed")]
+    [SerializeField, Min(0.01f)] private float desiredHorizontalSpeed = 20f;
 
     private Bullet currentBullet;
-    private readonly float gravity = Mathf.Abs(Physics.gravity.y);
+    private Quaternion initialRootLocalRotation;
+    private Coroutine rotationCoroutine;
 
     private void Awake()
     {
+        if (slingshotRoot != null)
+        {
+            initialRootLocalRotation = slingshotRoot.localRotation;
+        }
+
         GameEvents.OnSlingshotRotate += Rotate;
     }
 
@@ -26,32 +35,100 @@ public class SlingshotController : MonoBehaviour
         GameEvents.OnSlingshotRotate -= Rotate;
     }
 
-    public void Rotate(Vector3 target)
+    private Vector3 debugLastTarget;
+    private Vector3 debugLastVelocity;
+
+    public void Rotate(Vector3 target, Vector3 targetNormal)
     {
-        Vector3 direction = target - transform.position;
+        if (slingshotRoot == null || firePoint == null)
+        {
+            Debug.LogWarning("SlingshotRoot or FirePoint is not assigned.", this);
+            return;
+        }
+
+        Vector3 direction = target - firePoint.position;
         direction.y = 0;
-        transform.rotation = Quaternion.LookRotation(direction);
-        FireAt(target);
+
+        if (direction.sqrMagnitude <= Mathf.Epsilon)
+        {
+            return;
+        }
+
+        // World yaw angle towards target
+        float targetYaw = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+        targetYaw = Mathf.Clamp(targetYaw, -60f, 60f);
+
+        Debug.Log($"[Slingshot Debug] Target: {target} | FirePoint: {firePoint.position} | WorldDir: {direction} | TargetYaw: {targetYaw}");
+
+        if (rotationCoroutine != null)
+        {
+            StopCoroutine(rotationCoroutine);
+        }
+
+        rotationCoroutine = StartCoroutine(
+            RotateAndFire(target, targetNormal, targetYaw)
+        );
+    }
+
+    private IEnumerator RotateAndFire(
+        Vector3 target,
+        Vector3 targetNormal,
+        float targetYaw)
+    {
+        Quaternion startRotation = slingshotRoot.localRotation;
+        Quaternion yawRotation = Quaternion.AngleAxis(-targetYaw, Vector3.up);
+        Quaternion targetRotation = yawRotation * initialRootLocalRotation;
+
+        if (rotationDuration <= 0f)
+        {
+            slingshotRoot.localRotation = targetRotation;
+            rotationCoroutine = null;
+            FireAt(target, targetNormal);
+            yield break;
+        }
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < rotationDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsedTime / rotationDuration);
+
+            yield return null;
+            slingshotRoot.localRotation = Quaternion.Slerp(
+                startRotation,
+                targetRotation,
+                progress
+            );
+        }
+
+        slingshotRoot.localRotation = targetRotation;
+        rotationCoroutine = null;
+        FireAt(target, targetNormal);
     }
 
     private void LoadNextBullet()
     {
-        GameObject bulletObject = ObjectPool.Instance.GetObject(PoolType.Bullet);
-        if (bulletObject == null || !bulletObject.TryGetComponent(out currentBullet))
+        currentBullet = SimplePool.Spawn<Bullet>(
+            PoolType.Bullet,
+            firePoint.position,
+            Quaternion.identity
+        );
+
+        if (currentBullet == null)
         {
-            Debug.LogError("Could not load a Bullet from the ObjectPool.", this);
-            currentBullet = null;
+            Debug.LogError("Could not spawn a Bullet from SimplePool.", this);
             return;
         }
 
         currentBullet.ResetBullet();
         currentBullet.transform.SetParent(firePoint, false);
-        currentBullet.transform.position = firePoint.position;
-        currentBullet.transform.rotation = firePoint.rotation;
-        currentBullet.transform.localScale = firePoint.localScale;
+        currentBullet.transform.localPosition = Vector3.zero;
+        currentBullet.transform.localRotation = Quaternion.identity;
+        currentBullet.transform.localScale = Vector3.one;
     }
 
-    public void FireAt(Vector3 target)
+    public void FireAt(Vector3 target, Vector3 targetNormal)
     {
         if (currentBullet == null)
         {
@@ -63,49 +140,89 @@ public class SlingshotController : MonoBehaviour
         }
 
         Bullet bulletToFire = currentBullet;
-        currentBullet = null;
+        Vector3 startPoint = bulletToFire.transform.position;
 
+        // Offset collision target along the trajectory vector instead of target normal
+        Vector3 fireDirection = (target - startPoint).normalized;
+        Vector3 collisionTarget = target - fireDirection * bulletToFire.CollisionRadius;
+
+        if (!TryCalculateLaunchVelocity(
+                startPoint,
+                collisionTarget,
+                out Vector3 calculatedVelocity))
+        {
+            Debug.LogWarning(
+                "Cannot calculate a launch velocity for this target.",
+                this
+            );
+            return;
+        }
+
+        // Ignore collisions between the bullet and the slingshot structure so it doesn't bounce on launch
+        Collider bulletCollider = bulletToFire.GetComponent<Collider>();
+        if (bulletCollider != null)
+        {
+            Collider[] slingshotColliders = GetComponentsInChildren<Collider>();
+            foreach (Collider col in slingshotColliders)
+            {
+                if (col != null && col != bulletCollider)
+                {
+                    Physics.IgnoreCollision(bulletCollider, col, true);
+                }
+            }
+        }
+
+        debugLastTarget = target;
+        debugLastVelocity = calculatedVelocity;
+
+        currentBullet = null;
         bulletToFire.transform.SetParent(null, true);
-        bulletToFire.transform.localScale = firePoint.localScale;
-        Vector3 calculatedVelocity = CalculateLaunchVelocity(firePoint.position, target);
         bulletToFire.Launch(calculatedVelocity);
 
-        LoadNextBullet();
+        // Delay loading the next bullet so it doesn't overlap with the fired bullet at launch
+        StartCoroutine(DelayLoadNextBullet(0.5f));
     }
 
-    private Vector3 CalculateLaunchVelocity(Vector3 startPoint, Vector3 targetPoint)
+    private IEnumerator DelayLoadNextBullet(float delay)
     {
-        Vector3 finalVelocity = Vector3.zero;
+        yield return new WaitForSeconds(delay);
+        if (currentBullet == null)
+        {
+            LoadNextBullet();
+        }
+    }
 
-        // Chênh lệch độ cao (y) và khoảng cách ngang (x)
-        float y = targetPoint.y - startPoint.y;
-        Vector3 directionXZ = new Vector3(targetPoint.x - startPoint.x, 0, targetPoint.z - startPoint.z);
-        float x = directionXZ.magnitude;
+    private bool TryCalculateLaunchVelocity(
+        Vector3 startPoint,
+        Vector3 targetPoint,
+        out Vector3 launchVelocity)
+    {
+        launchVelocity = Vector3.zero;
 
-        // Tránh chia cho 0 nếu điểm bắn và mục tiêu trùng nhau
-        //if (x < 0.01f) return false;
+        // Horizontal distance is measured only on the XZ plane.
+        Vector3 displacement = targetPoint - startPoint;
+        Vector3 horizontalDisplacement = new Vector3(
+            displacement.x,
+            0f,
+            displacement.z
+        );
+        float horizontalDistance = horizontalDisplacement.magnitude;
 
-        // Công thức vật lý đạn đạo: Tính phần dưới dấu căn (Discriminant)
-        float v2 = speed * speed;
-        float v4 = speed * speed * speed * speed;
-        float g = gravity;
+        // A vertical-only shot cannot use a horizontal-speed model.
+        if (horizontalDistance <= Mathf.Epsilon ||
+            desiredHorizontalSpeed <= Mathf.Epsilon)
+        {
+            return false;
+        }
 
-        // Biệt thức delta trong phương trình góc ném
-        float discriminant = v4 - (g * ((g * x * x) + (2 * y * v2)));
+        float flightTime = horizontalDistance / desiredHorizontalSpeed;
 
-        // Nếu discriminant < 0, tốc độ (speed) quá yếu, không thể bắn tới mục tiêu dù ở góc tối ưu 45 độ
-        // if (discriminant < 0) return false;
+        // Compensate for gravity over the calculated flight time.
+        launchVelocity =
+            displacement / flightTime -
+            0.5f * Physics.gravity * flightTime;
 
-        // Chọn góc bắn thấp (Low Arc) để đạn bay căng và nhanh (Dùng dấu TRỪ trước căn bậc 2)
-        // Nếu muốn bắn bổng (súng cối), thay dấu TRỪ thành CỘNG
-        float root = Mathf.Sqrt(discriminant);
-        float lowAngle = Mathf.Atan((v2 - root) / (g * x));
-
-        // Chuyển đổi góc bắn từ Toán học sang Vector3 của Unity
-        Vector3 velocityXZ = directionXZ.normalized * (Mathf.Cos(lowAngle) * speed);
-        float velocityY = Mathf.Sin(lowAngle) * speed;
-
-        return finalVelocity = new Vector3(velocityXZ.x, velocityY, velocityXZ.z);
+        return true;
     }
 
     public void HandleOnMouseDown()
@@ -121,5 +238,30 @@ public class SlingshotController : MonoBehaviour
     public void HandleOnMouseUp()
     {
         Debug.Log("Slingshot released");
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (firePoint != null)
+        {
+            // Green ray: Forward direction of the fire point
+            Gizmos.color = Color.green;
+            Gizmos.DrawRay(firePoint.position, firePoint.forward * 3f);
+
+            // Red sphere & line: Target point hit by raycast
+            if (debugLastTarget != Vector3.zero)
+            {
+                Gizmos.color = Color.red;
+                Gizmos.DrawWireSphere(debugLastTarget, 0.3f);
+                Gizmos.DrawLine(firePoint.position, debugLastTarget);
+            }
+
+            // Blue line: Calculated launch velocity vector direction
+            if (debugLastVelocity != Vector3.zero)
+            {
+                Gizmos.color = Color.blue;
+                Gizmos.DrawRay(firePoint.position, debugLastVelocity.normalized * 5f);
+            }
+        }
     }
 }

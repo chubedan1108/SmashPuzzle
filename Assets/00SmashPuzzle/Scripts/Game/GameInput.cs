@@ -1,4 +1,3 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -20,13 +19,13 @@ public class GameInput : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(mouseInput);
                 if (Physics.Raycast(ray, out RaycastHit hit, 100f, layerMask))
                 {
-                    Debug.Log(hit.collider.name);
-                    Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red, 1f);
-                    GameEvents.OnSlingshotRotate?.Invoke(hit.point);
+                    Debug.Log($"[GameInput Raycast] ScreenPos: {mouseInput} | RayOrigin: {ray.origin} | RayDir: {ray.direction} | HitObject: '{hit.collider.name}' | HitPoint: {hit.point} | CameraPos: {Camera.main.transform.position} | CameraRot: {Camera.main.transform.eulerAngles}");
+                    Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red, 2f);
+                    GameEvents.OnSlingshotRotate?.Invoke(hit.point, hit.normal);
                 }
                 else
                 {
-                    Debug.Log("No object hit");
+                    Debug.Log($"[GameInput Raycast Missed] ScreenPos: {mouseInput} | RayOrigin: {ray.origin} | RayDir: {ray.direction}");
                 }
             }
         }

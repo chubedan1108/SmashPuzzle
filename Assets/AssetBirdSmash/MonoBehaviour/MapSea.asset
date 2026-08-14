@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef05fe0032d37a91b95935f8abd0384, type: 3}
+  m_Name: MapSea
+  m_EditorClassIdentifier:
+  map: 1
+  backgroundPrefab: {fileID: 1709254077376921, guid: fba3b81720edd3d418d0f27f6c4718e0, type: 2}
+  objectData: {fileID: 11400000, guid: bb52779c37eb6294fb84ff494e5aee0c, type: 2}
+  particleData: {fileID: 11400000, guid: 93cc5dd5da337a94c94cff15e5a547ec, type: 2}

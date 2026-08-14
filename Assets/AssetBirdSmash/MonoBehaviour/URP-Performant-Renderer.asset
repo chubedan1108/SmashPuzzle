@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1575395517, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
+  m_Name: URP-Performant-Renderer
+  m_EditorClassIdentifier:
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: 6c64e99125bb77e44bf06b254b5006a3, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 923237fe18dd5a842a5495340b00e552, type: 3}
+  m_RendererFeatures: []
+  m_RendererFeatureMap:
+  m_UseNativeRenderPass: 0
+  postProcessData: {fileID: 11400000, guid: 27f8335e9bba2cb438fbfa358abc5345, type: 2}
+  xrSystemData: {fileID: 11400000, guid: bbe67c52e1b9fe64792753e2be3a36c8, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: 9f41ce9592440fa4d89f4fa197ab9b15, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: f59a8cd8164f6d34facab2f834c926e8, type: 3}
+    screenSpaceShadowPS: {fileID: 0}
+    samplingPS: {fileID: 4800000, guid: 6a8dcb55058ea16429e5d4122b3574e7, type: 3}
+    stencilDeferredPS: {fileID: 4800000, guid: 214a526ed7014e54cbf88c13e6a5ac78, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: d3a1578442f7dc54a8622116109d1a04, type: 3}
+    fallbackLoadingPS: {fileID: 4800000, guid: 2761d2cb8d932fa45a41d65d658c6709, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5d3518977750c924d8234557684b902f, type: 3}
+    coreBlitPS: {fileID: 4800000, guid: 8dd8e082bf05e884596d5946d5eb4f83, type: 3}
+    coreBlitColorAndDepthPS: {fileID: 4800000, guid: f385ea4f57c9d9e4e90d8778add47b01, type: 3}
+    blitHDROverlay: {fileID: 4800000, guid: 23f7d8f92248c184f83da9f20a608ffe, type: 3}
+    cameraMotionVector: {fileID: 4800000, guid: bc8e9158b965bf14ab49254d9989677a, type: 3}
+    objectMotionVector: {fileID: 4800000, guid: 31e1d9641bebb354fab49affe502d01c, type: 3}
+    dataDrivenLensFlare: {fileID: 4800000, guid: c391f3f4ea9cc114eb0971a034be340f, type: 3}
+    terrainDetailLitPS: {fileID: 4800000, guid: fadb794809d7ed64789b011364beb7fe, type: 3}
+    terrainDetailGrassPS: {fileID: 4800000, guid: aabc9bf5e5beb824e9b07c75d87f2cd9, type: 3}
+    terrainDetailGrassBillboardPS: {fileID: 4800000, guid: 916dc41fe7a744a4c86fef5de4f9db2b, type: 3}
+  m_AssetVersion: 2
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 0
+  m_AccurateGbufferNormals: 0
+  m_IntermediateTextureMode: 1

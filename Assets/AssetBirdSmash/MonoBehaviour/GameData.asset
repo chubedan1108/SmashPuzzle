@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8a44b374db4f7d0c1301c325f29ded, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier:
+  objectData: {fileID: 11400000, guid: bb52779c37eb6294fb84ff494e5aee0c, type: 2}
+  levelCollection: {fileID: 11400000, guid: 8d5953fbb2ae35e46b0565c3f06fab25, type: 2}
+  mapCollection: {fileID: 11400000, guid: f70b29c7005093b40b79c565f350586d, type: 2}
+  particleData: {fileID: 11400000, guid: 93cc5dd5da337a94c94cff15e5a547ec, type: 2}

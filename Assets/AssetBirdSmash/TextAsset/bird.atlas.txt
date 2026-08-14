@@ -1,0 +1,5 @@
+bird.png
+size:268,268
+filter:Linear,Linear
+chim
+bounds:0,147,267,120

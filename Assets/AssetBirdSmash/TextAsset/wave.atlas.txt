@@ -1,0 +1,6 @@
+wave.png
+size:2020,3096
+filter:Linear,Linear
+pma:true
+wave_line2
+bounds:2,2,2016,3090

@@ -1,0 +1,952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898bc0d5be9f555532d6a5eb068d3d16, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier:
+  levelIndex: 5
+  moveCount: 20
+  difficulty: 0
+  map: 0
+  stages:
+  - objects:
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.4850001
+        y: 0.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.4850001
+        y: 0.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 0.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 0.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.515
+        y: 2.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.515
+        y: 2.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 2.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 2.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.5
+        y: 0.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.515
+        y: 0.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.5
+        y: 0.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.515
+        y: 0.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.515
+        y: 2.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.485
+        y: 2.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.515
+        y: 2.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.515
+        y: 2.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.515
+        y: 1.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 1.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.4850001
+        y: 1.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.515
+        y: 1.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.485
+        y: 1.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.515
+        y: 1.5
+        z: 0.4384997
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.515
+        y: 1.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.515
+        y: 1.5
+        z: -0.5615003
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 0.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 0.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 1.4980903
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 1.4980898
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 2.49618
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 2.4961796
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 3.4942698
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 3.4942698
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 4.4923596
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 4.4923596
+        z: -0.51
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 0.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 0.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 1.4980903
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 1.4980903
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 2.4961805
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 2.4961805
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 3.4942708
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 3.4942708
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.45999998
+        y: 4.4923606
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.54
+        y: 4.4923606
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 2
+        y: 1
+        z: 1
+      pos:
+        x: 3
+        y: 3.48
+        z: -0.54
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 2
+        y: 1
+        z: 1
+      pos:
+        x: -3.0000002
+        y: 3.4980912
+        z: -0.55
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 2
+        y: 1
+        z: 1
+      pos:
+        x: 3
+        y: 3.46
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 3
+      size:
+        x: 2
+        y: 1
+        z: 1
+      pos:
+        x: -3.16
+        y: 3.4980893
+        z: 0.55
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.5
+        y: 4.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.5
+        y: 4.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.5
+        y: 4.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -3.5
+        y: 4.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.5
+        y: 5.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.5
+        y: 5.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.5
+        y: 5.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.5
+        y: 5.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.5
+        y: 4.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.5
+        y: 4.5
+        z: 0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.5
+        y: 4.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 89
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 3.5
+        y: 4.5
+        z: -0.5
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    tables:
+    - id: 0
+      pos:
+        x: 0
+        y: 2.9
+        z: 2.74
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+      scl:
+        x: 1
+        y: 1
+        z: 1
+      dim:
+        x: 8
+        y: 2
+        z: 0
+      doRot: 0
+      rotSpd: 0
+      movH: 0
+      movHMin: 0
+      movHMax: 0
+      dirH: 0
+      movSpdH: 0
+      movV: 0
+      movVMin: 0
+      movVMax: 0
+      dirV: 0
+      movSpdV: 0
+    blockers: []

@@ -238,6 +238,7 @@ Material:
     - _MatCapStatic: 0
     - _Metallic: 0
     - _MixedLighting: 0
+    - _Mode: 3
     - _Normal2Strength: 1
     - _NormalStrength: 1
     - _NormalUV: 0
@@ -298,6 +299,7 @@ Material:
     - _Surface: 1
     - _TransparencyMaskAmount: 1
     - _TransparencyMaskContrast: 1
+    - _UVSec: 0
     - _UVTile: 0
     - _UVTileDiscardUV: 1
     - _UVTileV0U0: 0

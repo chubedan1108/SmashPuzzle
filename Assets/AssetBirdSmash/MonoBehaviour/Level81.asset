@@ -1,0 +1,952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898bc0d5be9f555532d6a5eb068d3d16, type: 3}
+  m_Name: Level81
+  m_EditorClassIdentifier:
+  levelIndex: 81
+  moveCount: 20
+  difficulty: 0
+  map: 0
+  stages:
+  - objects:
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 1
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -1
+        y: 1
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 0
+        y: 1
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 1
+        y: 1
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 1
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 1
+        z: -1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 1
+        z: 0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 1
+        z: 1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 1
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -1
+        y: 1
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 0
+        y: 1
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 1
+        y: 1
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 1
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 1
+        z: 1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 1
+        z: 0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 1
+        z: -1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 3
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 3
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 3
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 3
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -1
+        y: 2.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0
+        y: 2.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 1
+        y: 2.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 1
+        y: 3.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0
+        y: 3.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -1
+        y: 3.5
+        z: -2.193
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 2.5
+        z: -0.999
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 2.5
+        z: 0.0009999871
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 2.5
+        z: 1.0009999
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 3.5
+        z: 1.0009999
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 3.5
+        z: 0.0009999871
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 2.114
+        y: 3.5
+        z: -0.999
+      rot:
+        x: 0
+        y: -0.7093391
+        z: 0
+        w: 0.70486754
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.99899995
+        y: 2.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.0010000467
+        y: 2.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -1.001
+        y: 2.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -1.001
+        y: 3.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -0.0010000467
+        y: 3.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: 0.99899995
+        y: 3.5
+        z: 2.133
+      rot:
+        x: 0
+        y: -0.9999912
+        z: 0
+        w: -0.0042018364
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 2.5
+        z: 0.996
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 2.5
+        z: -0.004000008
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 2.5
+        z: -1.004
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 3.5
+        z: -1.004
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 3.5
+        z: -0.004000008
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 81
+      size:
+        x: 1
+        y: 1
+        z: 1
+      pos:
+        x: -2.122
+        y: 3.5
+        z: 0.996
+      rot:
+        x: 0
+        y: 0.6950903
+        z: 0
+        w: 0.7189225
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 5
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 1
+        y: 5
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 0
+        y: 5
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -1
+        y: 5
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 5
+        z: -2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 5
+        z: -1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 5
+        z: 0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 5
+        z: 1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -2
+        y: 5
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: -1
+        y: 5
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 0
+        y: 5
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 1
+        y: 5
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 5
+        z: 2
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 5
+        z: 1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 5
+        z: 0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    - tableId: 0
+      type: 61
+      size:
+        x: 1
+        y: 2
+        z: 1
+      pos:
+        x: 2
+        y: 5
+        z: -1
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+    tables:
+    - id: 0
+      pos:
+        x: 0
+        y: 2.9
+        z: 0
+      rot:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+      scl:
+        x: 1
+        y: 1
+        z: 1
+      dim:
+        x: 5
+        y: 5
+        z: 0
+      doRot: 0
+      rotSpd: 0
+      movH: 0
+      movHMin: -1
+      movHMax: 1
+      dirH: 0
+      movSpdH: 0
+      movV: 1
+      movVMin: 0
+      movVMax: 3
+      dirV: 0
+      movSpdV: 1
+    blockers: []

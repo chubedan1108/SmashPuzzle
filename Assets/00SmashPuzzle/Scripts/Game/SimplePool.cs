@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,23 +7,23 @@ public static class SimplePool
 
 
     //Khoi tao pool moi
-    public static void Preload(PoolType poolType, GameObject prefab, int amount, Transform parent)
+    public static void Preload(GameUnit prefab, int amount, Transform parent)
     {
        if (prefab == null)
        {
             Debug.LogError("Prefab is null. Cannot preload pool.");
             return;
        }
-       if (!poolInstance.ContainsKey(poolType) || poolInstance[poolType] == null)
+       if (!poolInstance.ContainsKey(prefab.poolType) || poolInstance[prefab.poolType] == null)
        {
             Pool p = new();
             p.Preload(prefab, amount, parent);
-            poolInstance.Add(poolType, p);
+            poolInstance.Add(prefab.poolType, p);
        }
     }
 
     //Lay phan tu trong pool
-    public static T Spawn<T>(PoolType poolType, Vector3 pos, Quaternion rot) where T : Component
+    public static T Spawn<T>(PoolType poolType, Vector3 pos, Quaternion rot) where T : GameUnit
     {
         if (!poolInstance.ContainsKey(poolType))
         {
@@ -35,7 +34,7 @@ public static class SimplePool
     }
 
     // Tra lai phan tu vao pool
-    public static void Despawn(PoolType poolType, GameObject obj)
+    public static void Despawn(PoolType poolType, GameUnit obj)
     {
         if (!poolInstance.ContainsKey(poolType))
         {
@@ -90,29 +89,29 @@ public static class SimplePool
 public class Pool
 {
     Transform parent;
-    GameObject prefab;
-    Queue<GameObject> inactives = new();
-    List<GameObject> actives = new();
+    GameUnit prefab;
+    Queue<GameUnit> inactives = new();
+    List<GameUnit> actives = new();
 
     //Khoi tao pool 
-    public void Preload(GameObject prefab, int amount, Transform parent)
+    public void Preload(GameUnit prefab, int amount, Transform parent)
     {
         this.prefab = prefab;
         this.parent = parent;
         for(int i = 0; i < amount; i++)
         {
-            Despawn(Spawn(Vector3.zero, Quaternion.identity));
+            Despawn(GameObject.Instantiate(prefab,parent));
         }
 
     }
 
     //Lay phan tu trong pool
-    public GameObject Spawn(Vector3 pos, Quaternion rot)
+    public GameUnit Spawn(Vector3 pos, Quaternion rot)
     {
-        GameObject unit;
+        GameUnit unit;
         if (inactives.Count <= 0)
         {
-            unit = GameObject.Instantiate(prefab, parent);
+            unit = GameUnit.Instantiate(prefab, parent);
         }
         else
         {
@@ -121,18 +120,24 @@ public class Pool
         unit.transform.position = pos;
         unit.transform.rotation = rot;
         actives.Add(unit);
-        unit.SetActive(true);
+        unit.gameObject.SetActive(true);
         return unit;
     }
 
     //Tra lai phan tu vao pool
-    public void Despawn(GameObject unit)
+    public void Despawn(GameUnit unit)
     {
-        if (unit != null & unit.gameObject.activeSelf)
+        if (unit != null)
         {
-            actives.Remove(unit);
-            inactives.Enqueue(unit);
-            unit.SetActive(false);
+            if (actives.Contains(unit))
+            {
+                actives.Remove(unit);
+            }
+            if (!inactives.Contains(unit))
+            {
+                inactives.Enqueue(unit);
+            }
+            unit.gameObject.SetActive(false);
         }
     }
 
@@ -151,7 +156,11 @@ public class Pool
         Collect();
         while(inactives.Count > 0)
         {
-            GameObject.Destroy(inactives.Dequeue());
+            GameUnit unit = inactives.Dequeue();
+            if (unit != null)
+            {
+                GameObject.Destroy(unit.gameObject);
+            }
         }
         inactives.Clear();
     }   

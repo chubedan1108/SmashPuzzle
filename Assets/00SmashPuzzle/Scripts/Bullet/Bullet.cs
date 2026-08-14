@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Bullet : MonoBehaviour
+[RequireComponent(typeof(SphereCollider))]
+public class Bullet : GameUnit
 {
     [SerializeField] private float lifetime = 2.5f;
     [Header("First contact explosion")]
@@ -21,15 +22,33 @@ public class Bullet : MonoBehaviour
     };
 
     private Rigidbody rb;
+    private SphereCollider sphereCollider;
     private Coroutine returnCoroutine;
     private Vector3 velocityBeforeImpact;
     private int hitCount;
     private bool hasFirstContact;
     private bool hasLaunched;
 
+    public float CollisionRadius
+    {
+        get
+        {
+            Vector3 scale = transform.lossyScale;
+            float largestScale = Mathf.Max(
+                Mathf.Abs(scale.x),
+                Mathf.Abs(scale.y),
+                Mathf.Abs(scale.z)
+            );
+
+            return sphereCollider.radius * largestScale;
+        }
+    }
+
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        sphereCollider = GetComponent<SphereCollider>();
     }
 
     private void FixedUpdate()
@@ -47,7 +66,17 @@ public class Bullet : MonoBehaviour
             return;
         }
 
+        // Ignore collisions with other Bullets or launcher environment planes (Ground / Plane)
+        if (collision.gameObject.GetComponent<Bullet>() != null ||
+            collision.gameObject.name.Contains("Ground") ||
+            collision.gameObject.name.Contains("Plane"))
+        {
+            Physics.IgnoreCollision(sphereCollider, collision.collider, true);
+            return;
+        }
+
         ContactPoint contact = collision.GetContact(0);
+        Debug.Log($"[Bullet Collision Debug] Bullet collided with target: '{collision.gameObject.name}' (Layer: {LayerMask.LayerToName(collision.gameObject.layer)}) at point: {contact.point}");
 
         if (!hasFirstContact)
         {
@@ -62,6 +91,7 @@ public class Bullet : MonoBehaviour
     {
         transform.SetParent(null, true);
         hasLaunched = true;
+        rb.useGravity = true;
         rb.isKinematic = false;
         rb.linearVelocity = initialVelocity;
         velocityBeforeImpact = initialVelocity;
@@ -74,7 +104,7 @@ public class Bullet : MonoBehaviour
         returnCoroutine = StartCoroutine(ReturnToPoolAfterLifetime());
     }
 
-    public void ResetBullet()
+public void ResetBullet()
     {
         if (returnCoroutine != null)
         {
@@ -82,9 +112,13 @@ public class Bullet : MonoBehaviour
             returnCoroutine = null;
         }
 
-        rb.isKinematic = true;
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
+        if (!rb.isKinematic)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            rb.isKinematic = true;
+        }
+
         velocityBeforeImpact = Vector3.zero;
         hitCount = 0;
         hasFirstContact = false;
@@ -151,6 +185,6 @@ public class Bullet : MonoBehaviour
 
         returnCoroutine = null;
         ResetBullet();
-        ObjectPool.Instance.ReturnObject(PoolType.Bullet, gameObject);
+        SimplePool.Despawn(poolType, this);
     }
 }

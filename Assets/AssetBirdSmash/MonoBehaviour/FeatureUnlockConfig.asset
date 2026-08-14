@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b059a66c1009071892e3f0264edd84, type: 3}
+  m_Name: FeatureUnlockConfig
+  m_EditorClassIdentifier:
+  features:
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: Wooden crate for birds, shoot it!
+    icon: {fileID: 21300000, guid: fd7a063ab797f914abc243f571306547, type: 2}
+    titleImage: {fileID: 21300000, guid: 457203586a90d414fa0a8833b569c8f6, type: 2}
+    unlockLevel: 5
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It contains fresh water and is very fragile upon impact.
+    icon: {fileID: 21300000, guid: 8a5840577b84cd44b8565c6f8e414009, type: 2}
+    titleImage: {fileID: 21300000, guid: 2c616ddfe856e1445b12f5f9030641b8, type: 2}
+    unlockLevel: 10
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: Heavier than a wooden box and harder to shoot down.
+    icon: {fileID: 21300000, guid: 93b889477d3f0104f9001219e77f7238, type: 2}
+    titleImage: {fileID: 21300000, guid: 9c76fef1f39a8604283c396cce9ee637, type: 2}
+    unlockLevel: 15
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It is very sturdy and requires a lot of force to shoot.
+    icon: {fileID: 21300000, guid: afd077ea569d10f42b066f2a1c26dcc1, type: 2}
+    titleImage: {fileID: 21300000, guid: fec5df0df2b74e3419a5d3e619c25d15, type: 2}
+    unlockLevel: 20
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It will move left and right, making it harder to shoot.
+    icon: {fileID: 21300000, guid: 3835c87e2795bbe4e94464883cb7394b, type: 2}
+    titleImage: {fileID: 21300000, guid: 1db932bd03140374da5dc54a2aedb3a7, type: 2}
+    unlockLevel: 29
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: When fired, it will shatter into pieces.
+    icon: {fileID: 21300000, guid: 930914ac927896a4d82b022d06037e1d, type: 2}
+    titleImage: {fileID: 21300000, guid: f312573ea86642c41a0c9f9c6dba6fad, type: 2}
+    unlockLevel: 39
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It will rotate with the objects on it.
+    icon: {fileID: 21300000, guid: 71edaf0ada1bc0946b4968f24f14ce9c, type: 2}
+    titleImage: {fileID: 21300000, guid: 1cf3d1684e95f504fa7de787c5017daa, type: 2}
+    unlockLevel: 50
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: Attracting the birds to fly closer!
+    icon: {fileID: 21300000, guid: d62f2badabad5d74297e14f1e6499267, type: 2}
+    titleImage: {fileID: 21300000, guid: 43607091942e1b542acbd9b7387d3dfe, type: 2}
+    unlockLevel: 59
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It will block the birds and cannot be destroyed.
+    icon: {fileID: 21300000, guid: a5eb8234027530d4d81fe6f7d337b8b5, type: 2}
+    titleImage: {fileID: 21300000, guid: cc093f90ac2c5a44eb5c2fe916fdd473, type: 2}
+    unlockLevel: 69
+  - isEnabled: 1
+    id:
+    title: New Feature
+    description: It can be raised and lowered!
+    icon: {fileID: 21300000, guid: 22a5d8bec31bef04badda5486295cb2f, type: 2}
+    titleImage: {fileID: 21300000, guid: 225ccfe923113ae4c96f5bfa5d003e2a, type: 2}
+    unlockLevel: 79

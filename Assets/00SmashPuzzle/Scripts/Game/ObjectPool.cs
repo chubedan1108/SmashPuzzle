@@ -79,11 +79,6 @@ public class ObjectPool : SingletonBase<ObjectPool>
     }
 }
 
-public enum PoolType
-{
-    None,
-    Bullet,
-}
 [Serializable]
 public class PoolTemp
 {
