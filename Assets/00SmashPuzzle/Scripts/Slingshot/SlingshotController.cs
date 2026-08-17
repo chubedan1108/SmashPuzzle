@@ -17,11 +17,7 @@ public class SlingshotController : MonoBehaviour
 
     private void Awake()
     {
-        if (slingshotRoot != null)
-        {
-            initialRootLocalRotation = slingshotRoot.localRotation;
-        }
-
+        initialRootLocalRotation = slingshotRoot.localRotation;
         GameEvents.OnSlingshotRotate += Rotate;
     }
 
@@ -38,14 +34,9 @@ public class SlingshotController : MonoBehaviour
     private Vector3 debugLastTarget;
     private Vector3 debugLastVelocity;
 
-    public void Rotate(Vector3 target, Vector3 targetNormal)
+    //Rotate weapon
+    public void Rotate(Vector3 target)
     {
-        if (slingshotRoot == null || firePoint == null)
-        {
-            Debug.LogWarning("SlingshotRoot or FirePoint is not assigned.", this);
-            return;
-        }
-
         Vector3 direction = target - firePoint.position;
         direction.y = 0;
 
@@ -53,37 +44,29 @@ public class SlingshotController : MonoBehaviour
         {
             return;
         }
-
         // World yaw angle towards target
         float targetYaw = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
         targetYaw = Mathf.Clamp(targetYaw, -60f, 60f);
-
-        Debug.Log($"[Slingshot Debug] Target: {target} | FirePoint: {firePoint.position} | WorldDir: {direction} | TargetYaw: {targetYaw}");
-
         if (rotationCoroutine != null)
         {
             StopCoroutine(rotationCoroutine);
         }
-
         rotationCoroutine = StartCoroutine(
-            RotateAndFire(target, targetNormal, targetYaw)
+            RotateAndFire(target, targetYaw)
         );
     }
 
-    private IEnumerator RotateAndFire(
-        Vector3 target,
-        Vector3 targetNormal,
-        float targetYaw)
+    private IEnumerator RotateAndFire(Vector3 target,float targetYaw)
     {
         Quaternion startRotation = slingshotRoot.localRotation;
-        Quaternion yawRotation = Quaternion.AngleAxis(-targetYaw, Vector3.up);
+        Quaternion yawRotation = Quaternion.AngleAxis(targetYaw, Vector3.up);
         Quaternion targetRotation = yawRotation * initialRootLocalRotation;
 
         if (rotationDuration <= 0f)
         {
             slingshotRoot.localRotation = targetRotation;
             rotationCoroutine = null;
-            FireAt(target, targetNormal);
+            FireAt(target);
             yield break;
         }
 
@@ -104,7 +87,7 @@ public class SlingshotController : MonoBehaviour
 
         slingshotRoot.localRotation = targetRotation;
         rotationCoroutine = null;
-        FireAt(target, targetNormal);
+        FireAt(target);
     }
 
     private void LoadNextBullet()
@@ -128,7 +111,7 @@ public class SlingshotController : MonoBehaviour
         currentBullet.transform.localScale = Vector3.one;
     }
 
-    public void FireAt(Vector3 target, Vector3 targetNormal)
+    public void FireAt(Vector3 target)
     {
         if (currentBullet == null)
         {
@@ -225,21 +208,7 @@ public class SlingshotController : MonoBehaviour
         return true;
     }
 
-    public void HandleOnMouseDown()
-    {
-        Debug.Log("Slingshot clicked");
-    }
-
-    public void HandleOnMouseDrag()
-    {
-        Debug.Log("Slingshot dragging");
-    }
-
-    public void HandleOnMouseUp()
-    {
-        Debug.Log("Slingshot released");
-    }
-
+   
     private void OnDrawGizmos()
     {
         if (firePoint != null)
