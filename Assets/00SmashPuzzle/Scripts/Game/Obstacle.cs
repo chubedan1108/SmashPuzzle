@@ -82,12 +82,12 @@ public abstract class Obstacle : Entity
         }
     }
     /// <summary>
-    /// Tính toán khối lượng = Thể tích (X * Y * Z) * Mật độ (Density) + Khối lượng phụ (AdditiveMass).
+    /// Tính toán khối lượng = 1.1 * [Thể tích (X * Y * Z) * Mật độ (Density) + Khối lượng phụ (AdditiveMass)].
     /// </summary>
     public float ComputeMass()
     {
         float volume = m_size.x * m_size.y * m_size.z;
-        return (volume * m_density) + m_additiveMass;
+        return 1.1f * ((volume * m_density) + m_additiveMass);
     }
     /// <summary>
     /// Thiết lập mô-men quán tính giải tích giúp vật thể lật/đổ thực tế hơn dạng khối hộp/hình trụ.
