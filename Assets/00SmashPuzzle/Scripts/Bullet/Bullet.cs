@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,14 @@ using UnityEngine;
 [RequireComponent(typeof(SphereCollider))]
 public class Bullet : GameUnit
 {
+    [SerializeField] private Renderer transparentMesh;
+    [SerializeField] private Material transparentMaterial;
+    [SerializeField] private Material originMaterial;
     [SerializeField] private float lifetime = 2.5f;
+    [SerializeField] private float fadeDuration = 0.5f;
+    [Header("Ground damping")]
+    [SerializeField] private float groundLinearDamping = 3f;
+    [SerializeField] private float groundAngularDamping = 3f;
     [Header("First contact explosion")]
     [SerializeField] private float firstContactExplosionForce = 3f;
     [SerializeField] private float firstContactExplosionRadius = 2f;
@@ -28,6 +36,7 @@ public class Bullet : GameUnit
     private int hitCount;
     private bool hasFirstContact;
     private bool hasLaunched;
+    private bool isFading;
 
     public float CollisionRadius
     {
@@ -61,14 +70,13 @@ public class Bullet : GameUnit
 
     private void OnCollisionEnter(Collision collision) //Note sua lai ham nay
     {
-        if (!hasLaunched || collision.contactCount == 0)
+        if (!hasLaunched || isFading || collision.contactCount == 0)
         {
             return;
         }
 
-        // Ignore collisions with other Bullets or launcher environment planes (Ground / Plane)
+        // Ignore collisions with other Bullets or launcher environment planes (Plane)
         if (collision.gameObject.GetComponent<Bullet>() != null ||
-            collision.gameObject.name.Contains("Ground") ||
             collision.gameObject.name.Contains("Plane"))
         {
             Physics.IgnoreCollision(sphereCollider, collision.collider, true);
@@ -77,6 +85,16 @@ public class Bullet : GameUnit
 
         ContactPoint contact = collision.GetContact(0);
         Debug.Log($"[Bullet Collision Debug] Bullet collided with target: '{collision.gameObject.name}' (Layer: {LayerMask.LayerToName(collision.gameObject.layer)}) at point: {contact.point}");
+
+        bool isGround = collision.gameObject.TryGetComponent<Ground>(out _) ||
+                        collision.gameObject.name.Contains("Ground");
+
+        if (isGround)
+        {
+            // Tang luc can khi cham dat de bong giam toc do dan, tranh lan mai
+            rb.linearDamping = groundLinearDamping;
+            rb.angularDamping = groundAngularDamping;
+        }
 
         if (!hasFirstContact)
         {
@@ -91,8 +109,11 @@ public class Bullet : GameUnit
     {
         transform.SetParent(null, true);
         hasLaunched = true;
+        isFading = false;
         rb.useGravity = true;
         rb.isKinematic = false;
+        rb.linearDamping = 0f;
+        rb.angularDamping = 0.05f;
         rb.linearVelocity = initialVelocity;
         velocityBeforeImpact = initialVelocity;
 
@@ -103,12 +124,16 @@ public class Bullet : GameUnit
     public void ResetBullet()
     {
         transform.gameObject.SetActive(false);
+        transparentMesh.material = originMaterial;
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
+        rb.linearDamping = 0f;
+        rb.angularDamping = 0.05f;
         velocityBeforeImpact = Vector3.zero;
         hitCount = 0;
         hasFirstContact = false;
         hasLaunched = false;
+        isFading = false;
     }
     private void ApplyFirstContactExplosion(Vector3 explosionPosition)
     {
@@ -166,10 +191,30 @@ public class Bullet : GameUnit
 
     private IEnumerator ReturnToPoolAfterLifetime()
     {
-        yield return new WaitForSeconds(lifetime);
+        yield return new WaitForSeconds(lifetime-fadeDuration);
+        TransparentObject();
+    }
 
-        returnCoroutine = null;
-        ResetBullet();
-        SimplePool.Despawn(poolType, this);
+    private void TransparentObject()
+    {
+        if (isFading)
+        {
+            return;
+        }
+        isFading = true;
+
+        if (returnCoroutine != null)
+        {
+            StopCoroutine(returnCoroutine);
+            returnCoroutine = null;
+        }
+
+        transparentMesh.material = transparentMaterial;
+        transparentMesh.material.DOFade(0f, "_BaseColor", fadeDuration).SetLink(gameObject)
+            .OnComplete(() =>
+            {
+                ResetBullet();
+                SimplePool.Despawn(poolType, this);
+            });
     }
 }

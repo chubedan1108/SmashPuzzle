@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class Ground : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject ballHitEffect;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.TryGetComponent<Bullet>(out _))
+        {
+            if (collision.contactCount > 0 && ballHitEffect != null)
+            {
+                ContactPoint contact = collision.GetContact(0);
+                Quaternion effectRotation = Quaternion.FromToRotation(Vector3.up, contact.normal) * ballHitEffect.transform.rotation;
+                GameObject effect = Instantiate(ballHitEffect, contact.point, effectRotation);
+                Destroy(effect, 2f);
+            }
+        }
     }
 }
