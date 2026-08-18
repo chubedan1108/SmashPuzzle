@@ -59,7 +59,7 @@ public class Bullet : GameUnit
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision) //Note sua lai ham nay
     {
         if (!hasLaunched || collision.contactCount == 0)
         {
@@ -96,35 +96,20 @@ public class Bullet : GameUnit
         rb.linearVelocity = initialVelocity;
         velocityBeforeImpact = initialVelocity;
 
-        if (returnCoroutine != null)
-        {
-            StopCoroutine(returnCoroutine);
-        }
-
+        //sua lai logic khi cham nen hoac sau 2.5f ma khong xay ra va cham gi thi return to pool (de luc sau thi sua)
         returnCoroutine = StartCoroutine(ReturnToPoolAfterLifetime());
     }
 
-public void ResetBullet()
+    public void ResetBullet()
     {
-        if (returnCoroutine != null)
-        {
-            StopCoroutine(returnCoroutine);
-            returnCoroutine = null;
-        }
-
-        if (!rb.isKinematic)
-        {
-            rb.linearVelocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            rb.isKinematic = true;
-        }
-
+        transform.gameObject.SetActive(false);
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
         velocityBeforeImpact = Vector3.zero;
         hitCount = 0;
         hasFirstContact = false;
         hasLaunched = false;
     }
-
     private void ApplyFirstContactExplosion(Vector3 explosionPosition)
     {
         Collider[] hitColliders = Physics.OverlapSphere(

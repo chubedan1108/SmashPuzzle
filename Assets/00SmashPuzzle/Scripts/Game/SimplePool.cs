@@ -120,7 +120,6 @@ public class Pool
         unit.transform.position = pos;
         unit.transform.rotation = rot;
         actives.Add(unit);
-        unit.gameObject.SetActive(true);
         return unit;
     }
 
@@ -138,6 +137,7 @@ public class Pool
                 inactives.Enqueue(unit);
             }
             unit.gameObject.SetActive(false);
+            unit.transform.SetParent(parent);
         }
     }
 

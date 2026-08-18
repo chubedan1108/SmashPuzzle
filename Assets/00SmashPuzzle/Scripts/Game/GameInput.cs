@@ -1,32 +1,40 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class GameInput : MonoBehaviour
+public class GameInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private Camera cam;
-    private void Update()
+
+    public void OnPointerDown(PointerEventData eventData)
     {
-        HandleInput();
+        Debug.Log("on pointer down");
+        ProcessingAim(eventData.position);
     }
 
-    private void HandleInput()
+    public void OnDrag(PointerEventData eventData)
     {
-        if (Input.GetMouseButtonDown(0))
+        Debug.Log("on drag");   
+        ProcessingAim(eventData.position);
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        Debug.Log("on pointer up");
+        Ray ray = cam.ScreenPointToRay(eventData.position);
+        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
         {
-            if (EventSystem.current != null && !EventSystem.current.IsPointerOverGameObject())
-            {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(ray, out RaycastHit hit, 1000f, layerMask))
-                {
-                    Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red, 2f);
-                    GameEvents.OnSlingshotRotate?.Invoke(hit.point);
-                }
-                else
-                {
-                  
-                }
-            }
+            GameEvents.OnShoot?.Invoke(hit.point);
+        }
+    }
+
+    private void ProcessingAim(Vector2 screenPosition)
+    {
+        Ray ray = cam.ScreenPointToRay(screenPosition);
+        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
+        {
+            Debug.Log(hit.collider.name);
+            GameEvents.OnAim?.Invoke(hit.point);
         }
     }
 }

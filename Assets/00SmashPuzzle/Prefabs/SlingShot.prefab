@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7100328279775057967}
   - component: {fileID: 7933781428010654266}
+  - component: {fileID: 8217481168465662351}
   m_Layer: 0
   m_Name: Root
   m_TagString: Untagged
@@ -55,6 +56,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8217481168465662351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3686950773984883478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f1a8f9730834944aa78469057bb387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3932832437181417618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,7 +2623,7 @@ Transform:
   m_Children:
   - {fileID: 4847453744187094205}
   m_Father: {fileID: 7100328279775057967}
-  m_LocalEulerAnglesHint: {x: -90, y: -0, z: -90}
+  m_LocalEulerAnglesHint: {x: -180, y: 90, z: -90}
 --- !u!1 &7660550859638227430
 GameObject:
   m_ObjectHideFlags: 0
@@ -2711,7 +2724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6087933854607292067}
-  - component: {fileID: 2298655384757281386}
+  - component: {fileID: 6558572408514309775}
   m_Layer: 0
   m_Name: SlingShot
   m_TagString: Untagged
@@ -2738,7 +2751,7 @@ Transform:
   - {fileID: 8140175627284706539}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 180, y: -0, z: -180}
---- !u!114 &2298655384757281386
+--- !u!114 &6558572408514309775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2752,9 +2765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slingshotRoot: {fileID: 6533916670354557106}
   firePoint: {fileID: 8434266745620365059}
-  rotationDuration: 1
-  heightOffset: 10
-  speed: 20
+  animator: {fileID: 7933781428010654266}
+  desiredHorizontalSpeed: 200
 --- !u!1 &8550003130500282347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,14 +2791,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8550003130500282347}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19080892, y: -0, z: -0, w: 0.9816273}
-  m_LocalPosition: {x: 0, y: 0.741963, z: 0.028677672}
+  m_LocalRotation: {x: -0, y: -0.55287504, z: -0.83326423, w: -0}
+  m_LocalPosition: {x: 0, y: 0.765, z: 0.091}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8894119558217977199}
   m_Father: {fileID: 6087933854607292067}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_LocalEulerAnglesHint: {x: -67.129, y: 0, z: -180}
 --- !u!1001 &4983445384567194695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2833,6 +2845,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4487418879145920808, guid: 043bc7f0ae3b8194a955d7753dbc2f2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374348913547538869, guid: 043bc7f0ae3b8194a955d7753dbc2f2f, type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6722710165933932476, guid: 043bc7f0ae3b8194a955d7753dbc2f2f, type: 3}

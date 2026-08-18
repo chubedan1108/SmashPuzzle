@@ -6,19 +6,25 @@ public class SlingshotController : MonoBehaviour
 {
     [SerializeField] private Transform slingshotRoot;
     [SerializeField] private Transform firePoint;
-    [SerializeField, Min(0f)] private float rotationDuration = 1f;
+    [Header("Effect cho lung linh")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private ParticleSystem featherSlingshot;  
     [Header("Ballistic setting")]
     [FormerlySerializedAs("speed")]
     [SerializeField, Min(0.01f)] private float desiredHorizontalSpeed = 20f;
 
     private Bullet currentBullet;
     private Quaternion initialRootLocalRotation;
-    private Coroutine rotationCoroutine;
+    private const string slingshotAnim="Shoot";
+    private Vector3 currentTarget;
 
     private void Awake()
     {
         initialRootLocalRotation = slingshotRoot.localRotation;
-        GameEvents.OnSlingshotRotate += Rotate;
+        GameEvents.OnShoot += OnShoot;
+        GameEvents.OnAim += Rotate;
+        GameEvents.OnPullCompleted += AnimPullCompleted;
+        GameEvents.OnShootCompleted += AnimOnShootCompleted;
     }
 
     private void Start()
@@ -28,15 +34,28 @@ public class SlingshotController : MonoBehaviour
 
     private void OnDestroy()
     {
-        GameEvents.OnSlingshotRotate -= Rotate;
+        GameEvents.OnShoot -= OnShoot;
+        GameEvents.OnAim -= Rotate;
+        GameEvents.OnPullCompleted -= AnimPullCompleted;
+        GameEvents.OnShootCompleted -= AnimOnShootCompleted;
     }
 
     private Vector3 debugLastTarget;
     private Vector3 debugLastVelocity;
 
-    //Rotate weapon
-    public void Rotate(Vector3 target)
+    //Dien anim ban
+    public void OnShoot(Vector3 target)
     {
+        currentTarget = target;
+        animator.SetTrigger(slingshotAnim);
+        featherSlingshot.Play();
+    }
+
+    //Xoay ve huong muc tieu
+    private void Rotate(Vector3 target)
+    {
+        currentTarget = target;
+
         Vector3 direction = target - firePoint.position;
         direction.y = 0;
 
@@ -47,63 +66,25 @@ public class SlingshotController : MonoBehaviour
         // World yaw angle towards target
         float targetYaw = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
         targetYaw = Mathf.Clamp(targetYaw, -60f, 60f);
-        if (rotationCoroutine != null)
-        {
-            StopCoroutine(rotationCoroutine);
-        }
-        rotationCoroutine = StartCoroutine(
-            RotateAndFire(target, targetYaw)
-        );
-    }
-
-    private IEnumerator RotateAndFire(Vector3 target,float targetYaw)
-    {
-        Quaternion startRotation = slingshotRoot.localRotation;
         Quaternion yawRotation = Quaternion.AngleAxis(targetYaw, Vector3.up);
         Quaternion targetRotation = yawRotation * initialRootLocalRotation;
-
-        if (rotationDuration <= 0f)
-        {
-            slingshotRoot.localRotation = targetRotation;
-            rotationCoroutine = null;
-            FireAt(target);
-            yield break;
-        }
-
-        float elapsedTime = 0f;
-
-        while (elapsedTime < rotationDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            float progress = Mathf.Clamp01(elapsedTime / rotationDuration);
-
-            yield return null;
-            slingshotRoot.localRotation = Quaternion.Slerp(
-                startRotation,
-                targetRotation,
-                progress
-            );
-        }
-
         slingshotRoot.localRotation = targetRotation;
-        rotationCoroutine = null;
-        FireAt(target);
     }
 
+    //Khi anim dien doan keo xong thi ban
+    private void AnimPullCompleted()
+    {
+        FireAt(currentTarget);
+    }
+
+    private void AnimOnShootCompleted()
+    {
+
+    }
+    //Load bullet tiep theo
     private void LoadNextBullet()
     {
-        currentBullet = SimplePool.Spawn<Bullet>(
-            PoolType.Bullet,
-            firePoint.position,
-            Quaternion.identity
-        );
-
-        if (currentBullet == null)
-        {
-            Debug.LogError("Could not spawn a Bullet from SimplePool.", this);
-            return;
-        }
-
+        currentBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet,firePoint.position,Quaternion.identity);
         currentBullet.ResetBullet();
         currentBullet.transform.SetParent(firePoint, false);
         currentBullet.transform.localPosition = Vector3.zero;
@@ -111,17 +92,15 @@ public class SlingshotController : MonoBehaviour
         currentBullet.transform.localScale = Vector3.one;
     }
 
+   
+
+    //Ban tai muc tieu
     public void FireAt(Vector3 target)
     {
         if (currentBullet == null)
         {
             LoadNextBullet();
-            if (currentBullet == null)
-            {
-                return;
-            }
         }
-
         Bullet bulletToFire = currentBullet;
         Vector3 startPoint = bulletToFire.transform.position;
 
@@ -129,10 +108,7 @@ public class SlingshotController : MonoBehaviour
         Vector3 fireDirection = (target - startPoint).normalized;
         Vector3 collisionTarget = target - fireDirection * bulletToFire.CollisionRadius;
 
-        if (!TryCalculateLaunchVelocity(
-                startPoint,
-                collisionTarget,
-                out Vector3 calculatedVelocity))
+        if (!TryCalculateLaunchVelocity(startPoint,collisionTarget,out Vector3 calculatedVelocity))
         {
             Debug.LogWarning(
                 "Cannot calculate a launch velocity for this target.",
@@ -141,25 +117,12 @@ public class SlingshotController : MonoBehaviour
             return;
         }
 
-        // Ignore collisions between the bullet and the slingshot structure so it doesn't bounce on launch
-        Collider bulletCollider = bulletToFire.GetComponent<Collider>();
-        if (bulletCollider != null)
-        {
-            Collider[] slingshotColliders = GetComponentsInChildren<Collider>();
-            foreach (Collider col in slingshotColliders)
-            {
-                if (col != null && col != bulletCollider)
-                {
-                    Physics.IgnoreCollision(bulletCollider, col, true);
-                }
-            }
-        }
-
         debugLastTarget = target;
         debugLastVelocity = calculatedVelocity;
 
         currentBullet = null;
         bulletToFire.transform.SetParent(null, true);
+        bulletToFire.gameObject.SetActive(true);
         bulletToFire.Launch(calculatedVelocity);
 
         // Delay loading the next bullet so it doesn't overlap with the fired bullet at launch
