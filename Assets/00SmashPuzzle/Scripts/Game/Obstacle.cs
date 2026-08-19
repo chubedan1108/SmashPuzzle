@@ -118,22 +118,29 @@ public abstract class Obstacle : Entity
     }
     protected virtual void OnCollisionEnter(Collision collision)
     {
-        float relativeSpeed = collision.relativeVelocity.magnitude;
-        // 1. Kiểm tra va chạm với bóng hoặc vật thể khác
-        bool isBall = collision.gameObject.GetComponent<Bullet>() != null;
-
-        // 2. Kích hoạt hiệu ứng va chạm (Impact VFX)
-        if (m_impactEffect != null && collision.contactCount > 0)
+        GameObject hitGO = collision.gameObject;
+        Vector3 contactPoint = collision.contactCount > 0 ? collision.GetContact(0).point : transform.position;
+        if (collision.gameObject.GetComponent<Ground>())
         {
-            Instantiate(m_impactEffect, collision.contacts[0].point, Quaternion.identity);
+            m_rb.isKinematic = true;
+            m_common.Break(contactPoint);
         }
+        //float relativeSpeed = collision.relativeVelocity.magnitude;
+        //// 1. Kiểm tra va chạm với bóng hoặc vật thể khác
+        //bool isBall = hitGO.GetComponent<Bullet>() != null;
 
-        // 3. Xử lý nổ / vỡ vụn do tốc độ va chạm vượt ngưỡng
-        float thresholdSpeed = isBall ? m_explodeMinSpeed : (m_explodeMinSpeed * m_explodeNonBallSpeedMultiplier);
-        if (m_explodes && relativeSpeed >= thresholdSpeed)
-        {
-            Explode(1f);
-        }
+        //// 2. Kích hoạt hiệu ứng va chạm (Impact VFX)
+        //if (m_impactEffect != null && collision.contactCount > 0)
+        //{
+        //    Instantiate(m_impactEffect, collision.contacts[0].point, Quaternion.identity);
+        //}
+
+        //// 3. Xử lý nổ / vỡ vụn do tốc độ va chạm vượt ngưỡng
+        //float thresholdSpeed = isBall ? m_explodeMinSpeed : (m_explodeMinSpeed * m_explodeNonBallSpeedMultiplier);
+        //if (m_explodes && relativeSpeed >= thresholdSpeed)
+        //{
+        //    Explode(1f);
+        //}
     }
     /// <summary>
     /// Cho biết bóng có thể đâm xuyên qua chướng ngại vật hay không.
@@ -149,11 +156,19 @@ public abstract class Obstacle : Entity
     {
         if (m_completed) return;
         Complete();
+
+        // Đóng băng Rigidbody để đối tượng dừng di chuyển và nằm yên
+        if (m_rb != null)
+        {
+            m_rb.linearVelocity = Vector3.zero;
+            m_rb.angularVelocity = Vector3.zero;
+            m_rb.isKinematic = true;
+        }
+
         // Kích hoạt vỡ mảnh trong ObstacleCommon
         if (m_common != null)
         {
             m_common.SpawnBrokenPieces(transform.position, strength);
-          
         }
         // Kích hoạt hiệu ứng nổ VFX
         if (m_explosionEffect != null)
@@ -165,7 +180,7 @@ public abstract class Obstacle : Entity
     }
     private IEnumerator WaitAndDestroyCoroutine()
     {
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(5f);
         Destroy(gameObject);
     }
     /// <summary>

@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 304637945}
     - target: {fileID: 6558572408514309775, guid: 6686989b124393946a6c3b0c7a2d6f20, type: 3}
       propertyPath: desiredHorizontalSpeed
-      value: 115
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 8085113497714286971, guid: 6686989b124393946a6c3b0c7a2d6f20, type: 3}
       propertyPath: m_Name
@@ -2621,6 +2621,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1295025698280832853, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295025698280832853, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295025698280832853, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295025698280832853, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1837796371810241734, guid: f69229857b484494387a48bd90f9989e, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -2632,6 +2648,10 @@ PrefabInstance:
     - target: {fileID: 3167349857457826540, guid: f69229857b484494387a48bd90f9989e, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167349857457826540, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3285271577846182756, guid: f69229857b484494387a48bd90f9989e, type: 3}
       propertyPath: m_LocalScale.x
@@ -2741,6 +2761,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8290142842886833390, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290142842886833390, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290142842886833390, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290142842886833390, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8486988974492059480, guid: f69229857b484494387a48bd90f9989e, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -2756,6 +2792,10 @@ PrefabInstance:
     - target: {fileID: 9093415711145333089, guid: f69229857b484494387a48bd90f9989e, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093415711145333089, guid: f69229857b484494387a48bd90f9989e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2856,7 +2896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063034435879323685, guid: 6fbf75732ef9f35438b5d095e3149386, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7129554219081646370, guid: 6fbf75732ef9f35438b5d095e3149386, type: 3}
       propertyPath: m_Layer
@@ -4006,7 +4046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7501012904604644507, guid: 2e53efe6929ee9a468063f956965b0a9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8702839464521439322, guid: 2e53efe6929ee9a468063f956965b0a9, type: 3}
       propertyPath: m_Layer

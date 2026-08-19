@@ -7,32 +7,32 @@ using UnityEngine;
 [RequireComponent(typeof(SphereCollider))]
 public class Bullet : GameUnit
 {
+    [SerializeField] private LayerMask ignoreImpact;
     [SerializeField] private Renderer transparentMesh;
-    [SerializeField] private Material transparentMaterial;
-    [SerializeField] private Material originMaterial;
     [SerializeField] private float lifetime = 2.5f;
     [SerializeField] private float fadeDuration = 0.5f;
+
     [Header("Ground damping")]
     [SerializeField] private float groundLinearDamping = 3f;
     [SerializeField] private float groundAngularDamping = 3f;
+
     [Header("First contact explosion")]
     [SerializeField] private float firstContactExplosionForce = 3f;
     [SerializeField] private float firstContactExplosionRadius = 2f;
     [SerializeField] private float firstContactExplosionUpwards = 0.5f;
     [SerializeField] private float firstContactExploderMultiplier = 1.2f;
+
     [Header("Hit velocity retention")]
     [SerializeField] private List<float> hitVelocityRetention = new()
     {
-        0.5f,
-        0.8f,
-        0.8f,
-        0.8f
+        0.5f,0.8f, 0.8f,0.8f
     };
 
     private Rigidbody rb;
     private SphereCollider sphereCollider;
     private Coroutine returnCoroutine;
     private Vector3 velocityBeforeImpact;
+    private Material originalMaterial;
     private int hitCount;
     private bool hasFirstContact;
     private bool hasLaunched;
@@ -58,6 +58,7 @@ public class Bullet : GameUnit
     {
         rb = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
+        originalMaterial = transparentMesh.material;
     }
 
     private void FixedUpdate()
@@ -68,34 +69,37 @@ public class Bullet : GameUnit
         }
     }
 
-    private void OnCollisionEnter(Collision collision) //Note sua lai ham nay
+    private void OnCollisionEnter(Collision collision)
     {
         if (!hasLaunched || isFading || collision.contactCount == 0)
         {
             return;
         }
-
-        // Ignore collisions with other Bullets or launcher environment planes (Plane)
-        if (collision.gameObject.GetComponent<Bullet>() != null ||
-            collision.gameObject.name.Contains("Plane"))
-        {
-            Physics.IgnoreCollision(sphereCollider, collision.collider, true);
-            return;
-        }
+        if (((1 << collision.gameObject.layer) & ignoreImpact.value) != 0) return;
 
         ContactPoint contact = collision.GetContact(0);
-        Debug.Log($"[Bullet Collision Debug] Bullet collided with target: '{collision.gameObject.name}' (Layer: {LayerMask.LayerToName(collision.gameObject.layer)}) at point: {contact.point}");
-
-        bool isGround = collision.gameObject.TryGetComponent<Ground>(out _) ||
-                        collision.gameObject.name.Contains("Ground");
-
-        if (isGround)
+        if (collision.gameObject.GetComponent<Ground>())
         {
-            // Tang luc can khi cham dat de bong giam toc do dan, tranh lan mai
-            rb.linearDamping = groundLinearDamping;
-            rb.angularDamping = groundAngularDamping;
+            HandleGroundImpact();
         }
+        
+        if (collision.gameObject.GetComponent<Obstacle>())
+        {
+            HandleObstacleImpact(contact);
+        }
+       
+    }
 
+    private void HandleGroundImpact()
+    {
+        //Tang luc can cua vat lieu de tranh bong lan mai
+        rb.linearDamping = groundLinearDamping;
+        rb.angularDamping = groundAngularDamping;
+        return;
+    }
+
+    private void HandleObstacleImpact(ContactPoint contact)
+    {
         if (!hasFirstContact)
         {
             hasFirstContact = true;
@@ -124,7 +128,7 @@ public class Bullet : GameUnit
     public void ResetBullet()
     {
         transform.gameObject.SetActive(false);
-        transparentMesh.material = originMaterial;
+        originalMaterial.SetFloat("_Alpha", 1f);
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.linearDamping = 0f;
@@ -135,24 +139,21 @@ public class Bullet : GameUnit
         hasLaunched = false;
         isFading = false;
     }
+
+    //Hieu ung o lan tuong tac dau tien
     private void ApplyFirstContactExplosion(Vector3 explosionPosition)
     {
-        Collider[] hitColliders = Physics.OverlapSphere(
-            explosionPosition,
-            firstContactExplosionRadius
+        Collider[] hitColliders = Physics.OverlapSphere( explosionPosition,firstContactExplosionRadius
         );
 
         HashSet<Rigidbody> affectedRigidbodies = new();
-        float finalExplosionForce =
-            firstContactExplosionForce * firstContactExploderMultiplier;
+        float finalExplosionForce = firstContactExplosionForce * firstContactExploderMultiplier;
 
         foreach (Collider hitCollider in hitColliders)
         {
             Rigidbody targetRigidbody = hitCollider.attachedRigidbody;
 
-            if (targetRigidbody == null ||
-                targetRigidbody == rb ||
-                !affectedRigidbodies.Add(targetRigidbody))
+            if (targetRigidbody == null || targetRigidbody == rb || !affectedRigidbodies.Add(targetRigidbody))
             {
                 continue;
             }
@@ -167,6 +168,7 @@ public class Bullet : GameUnit
         }
     }
 
+    // Hieu ung van toc khi hit trung
     private void ApplyHitVelocityRetention(Vector3 contactNormal)
     {
         if (hitVelocityRetention == null || hitVelocityRetention.Count == 0)
@@ -197,24 +199,12 @@ public class Bullet : GameUnit
 
     private void TransparentObject()
     {
-        if (isFading)
-        {
-            return;
-        }
-        isFading = true;
-
-        if (returnCoroutine != null)
-        {
-            StopCoroutine(returnCoroutine);
-            returnCoroutine = null;
-        }
-
-        transparentMesh.material = transparentMaterial;
-        transparentMesh.material.DOFade(0f, "_BaseColor", fadeDuration).SetLink(gameObject)
+        originalMaterial.DOFloat(0f, "_Alpha", fadeDuration)
+            .SetLink(gameObject)
             .OnComplete(() =>
             {
                 ResetBullet();
-                SimplePool.Despawn(poolType, this);
+                SimplePool.Despawn(PoolType.Bullet, this);
             });
     }
 }

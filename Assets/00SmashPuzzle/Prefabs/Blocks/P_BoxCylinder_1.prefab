@@ -934,7 +934,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8580597704782602169}
-  - component: {fileID: 8400129180944589488}
   m_Layer: 7
   m_Name: CylinderCollider
   m_TagString: Obstacle
@@ -973,24 +972,6 @@ Transform:
   - {fileID: 218154991865512625}
   m_Father: {fileID: 1295025698280832853}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &8400129180944589488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4791754822487204329}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4ec030aff94aaa4c96ccaf5a6ae8a8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumBoxes: 8
-  Radius: 0.5
-  Height: 1
-  Phase: 0
-  PhysicsMaterial: {fileID: 0}
-  InertiaMultiplier: {x: 1, y: 0.5, z: 1}
 --- !u!1 &5291802876029945512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,17 +1181,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5936082232902154170}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77df04947ad387c4494d18ae1a798f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_mesh: {fileID: 9093415711145333089}
   m_renderer: {fileID: 5299263520767156254}
   m_brokenPiecesRoot: {fileID: 3167349857457826540}
   m_brokenPieces:
   - {fileID: 1837796371810241734}
   - {fileID: 4582544576733125889}
   - {fileID: 3997602819176186976}
+  effectDuration: 2
   m_breakOnGround: 1
   BreakForce: 8
   BreakRadius: 2
@@ -1230,13 +1213,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_size: {x: 1, y: 1, z: 1}
-  m_density: 0.9
-  m_additiveMass: 0.15
+  m_density: 1.65
+  m_additiveMass: 1.65
   m_centerOfMass: {fileID: 0}
   m_useAnalyticInertia: 1
-  m_dynamicFriction: 0.45
-  m_staticFriction: 0.45
-  m_bounciness: 0.1
+  m_dynamicFriction: 0.495
+  m_staticFriction: 0.495
+  m_bounciness: 0
   m_frictionCombine: 0
   m_bounceCombine: 0
   m_explodes: 0
@@ -1244,7 +1227,7 @@ MonoBehaviour:
   m_explodeNonBallSpeedMultiplier: 1.5
   m_impactEffect: {fileID: 0}
   m_explosionEffect: {fileID: 0}
-  m_common: {fileID: 0}
+  m_common: {fileID: 4621293550919726374}
   m_applyRandomRotation: 1
 --- !u!1 &6625060473634740339
 GameObject:

@@ -10,12 +10,12 @@ public class SlingshotController : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private ParticleSystem featherSlingshot;  
     [Header("Ballistic setting")]
-    [FormerlySerializedAs("speed")]
+    [Tooltip("Toc do ngang cua dan")]
     [SerializeField, Min(0.01f)] private float desiredHorizontalSpeed = 20f;
 
     private Bullet currentBullet;
     private Quaternion initialRootLocalRotation;
-    private const string slingshotAnim="Shoot";
+    private const string ANIM_TRIGGER_SHOOT="Shoot";
     private Vector3 currentTarget;
 
     private void Awake()
@@ -47,7 +47,7 @@ public class SlingshotController : MonoBehaviour
     public void OnShoot(Vector3 target)
     {
         currentTarget = target;
-        animator.SetTrigger(slingshotAnim);
+        animator.SetTrigger(ANIM_TRIGGER_SHOOT);
         featherSlingshot.Play();
     }
 
@@ -63,7 +63,6 @@ public class SlingshotController : MonoBehaviour
         {
             return;
         }
-        // World yaw angle towards target
         float targetYaw = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
         targetYaw = Mathf.Clamp(targetYaw, -60f, 60f);
         Quaternion yawRotation = Quaternion.AngleAxis(targetYaw, Vector3.up);
@@ -92,8 +91,6 @@ public class SlingshotController : MonoBehaviour
         currentBullet.transform.localScale = Vector3.one;
     }
 
-   
-
     //Ban tai muc tieu
     public void FireAt(Vector3 target)
     {
@@ -103,8 +100,6 @@ public class SlingshotController : MonoBehaviour
         }
         Bullet bulletToFire = currentBullet;
         Vector3 startPoint = bulletToFire.transform.position;
-
-        // Offset collision target along the trajectory vector instead of target normal
         Vector3 fireDirection = (target - startPoint).normalized;
         Vector3 collisionTarget = target - fireDirection * bulletToFire.CollisionRadius;
 
@@ -124,50 +119,25 @@ public class SlingshotController : MonoBehaviour
         bulletToFire.transform.SetParent(null, true);
         bulletToFire.gameObject.SetActive(true);
         bulletToFire.Launch(calculatedVelocity);
-
-        // Delay loading the next bullet so it doesn't overlap with the fired bullet at launch
-        StartCoroutine(DelayLoadNextBullet(0.5f));
+        LoadNextBullet();
     }
 
-    private IEnumerator DelayLoadNextBullet(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        if (currentBullet == null)
-        {
-            LoadNextBullet();
-        }
-    }
-
-    private bool TryCalculateLaunchVelocity(
-        Vector3 startPoint,
-        Vector3 targetPoint,
-        out Vector3 launchVelocity)
+    //Tinh van toc cuoi cung dua tren van toc ngang va phan bu trong luc
+    private bool TryCalculateLaunchVelocity(Vector3 startPoint,Vector3 targetPoint,out Vector3 launchVelocity)
     {
         launchVelocity = Vector3.zero;
 
-        // Horizontal distance is measured only on the XZ plane.
         Vector3 displacement = targetPoint - startPoint;
-        Vector3 horizontalDisplacement = new Vector3(
-            displacement.x,
-            0f,
-            displacement.z
-        );
+        Vector3 horizontalDisplacement = new Vector3(displacement.x, 0f,displacement.z);
         float horizontalDistance = horizontalDisplacement.magnitude;
 
-        // A vertical-only shot cannot use a horizontal-speed model.
-        if (horizontalDistance <= Mathf.Epsilon ||
-            desiredHorizontalSpeed <= Mathf.Epsilon)
+        if (horizontalDistance <= Mathf.Epsilon || desiredHorizontalSpeed <= Mathf.Epsilon)
         {
             return false;
         }
 
         float flightTime = horizontalDistance / desiredHorizontalSpeed;
-
-        // Compensate for gravity over the calculated flight time.
-        launchVelocity =
-            displacement / flightTime -
-            0.5f * Physics.gravity * flightTime;
-
+        launchVelocity = displacement / flightTime - 0.5f * Physics.gravity * flightTime;
         return true;
     }
 

@@ -818,6 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5388339419666377924}
   - component: {fileID: 7052185630010848699}
+  - component: {fileID: 2876308453784101508}
   m_Layer: 0
   m_Name: P_CanCylinder_1
   m_TagString: Untagged
@@ -869,6 +870,28 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2876308453784101508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7501012904604644507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77df04947ad387c4494d18ae1a798f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: 423260393178292339}
+  m_renderer: {fileID: 1552665740748912634}
+  m_brokenPiecesRoot: {fileID: 2537295386195503287}
+  m_brokenPieces: []
+  m_breakOnGround: 1
+  BreakForce: 8
+  BreakRadius: 2
+  BreakUpwards: 0.1
+  BreakMaxSpeed: 3
+  BreakSpin: 450
 --- !u!1 &8702839464521439322
 GameObject:
   m_ObjectHideFlags: 0

@@ -128,14 +128,8 @@ public class Pool
     {
         if (unit != null)
         {
-            if (actives.Contains(unit))
-            {
-                actives.Remove(unit);
-            }
-            if (!inactives.Contains(unit))
-            {
-                inactives.Enqueue(unit);
-            }
+            actives.Remove(unit); //duyet tuyen tinh
+            inactives.Enqueue(unit); // duyet tuyen tinh
             unit.gameObject.SetActive(false);
             unit.transform.SetParent(parent);
         }

@@ -2377,7 +2377,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!114 &8120787162665836500
@@ -2393,20 +2393,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolType: 1
+  ignoreImpact:
+    serializedVersion: 2
+    m_Bits: 192
   transparentMesh: {fileID: 8537327559853940199}
-  transparentMaterial: {fileID: 2100000, guid: d240c491d5f73b144958d739d0b20641, type: 2}
-  originMaterial: {fileID: 2100000, guid: 8e246d11cc58d4a45be6ae0939cef77f, type: 2}
   lifetime: 2.5
   fadeDuration: 0.5
+  groundLinearDamping: 5
+  groundAngularDamping: 5
   firstContactExplosionForce: 3
   firstContactExplosionRadius: 2
   firstContactExplosionUpwards: 0.5
   firstContactExploderMultiplier: 1.2
   hitVelocityRetention:
   - 0.5
-  - 0.6
-  - 0.6
-  - 0.6
+  - 0.65
+  - 0.65
+  - 0.65
 --- !u!96 &6070480826899463358
 TrailRenderer:
   serializedVersion: 3
@@ -2531,6 +2534,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4487418879145920808}
     m_Modifications:
+    - target: {fileID: 2939222422834097697, guid: eb26a1322de0fdb44b57988288f13a90, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e246d11cc58d4a45be6ae0939cef77f, type: 2}
     - target: {fileID: 3726945063283687708, guid: eb26a1322de0fdb44b57988288f13a90, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2

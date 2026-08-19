@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586699520285375490}
   - component: {fileID: 610601044104729647}
+  - component: {fileID: -4544268138357164879}
   m_Layer: 0
   m_Name: P_CanSquare_2
   m_TagString: Untagged
@@ -61,6 +62,28 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4544268138357164879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112345700664816625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77df04947ad387c4494d18ae1a798f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: 5822118821760584114}
+  m_renderer: {fileID: 3951841801538951578}
+  m_brokenPiecesRoot: {fileID: 3893664454318687569}
+  m_brokenPieces: []
+  m_breakOnGround: 1
+  BreakForce: 8
+  BreakRadius: 2
+  BreakUpwards: 0.1
+  BreakMaxSpeed: 3
+  BreakSpin: 450
 --- !u!1 &126230403491688682
 GameObject:
   m_ObjectHideFlags: 0
