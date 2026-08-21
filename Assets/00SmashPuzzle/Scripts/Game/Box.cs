@@ -1,10 +1,10 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Box : Obstacle
 {
     [Header("Box Specific")]
     [SerializeField] private bool m_applyRandomRotation = true;
-
     public override ObstacleType Type => ObstacleType.Box;
     public bool ApplyRandomRotation => m_applyRandomRotation;
 
@@ -16,6 +16,12 @@ public class Box : Obstacle
         {
             ApplyRandomVisualRotation();
         }
+       gameObject.SetActive(false);
+    }
+
+    protected override void Start()
+    {
+        gameObject.SetActive(true);
     }
 
     /// <summary>

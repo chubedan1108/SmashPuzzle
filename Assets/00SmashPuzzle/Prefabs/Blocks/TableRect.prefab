@@ -183,6 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshFilter: {fileID: 1762613213145066217}
+  body: {fileID: 8861157581271553378}
 --- !u!1 &1901396013919093445
 GameObject:
   m_ObjectHideFlags: 0

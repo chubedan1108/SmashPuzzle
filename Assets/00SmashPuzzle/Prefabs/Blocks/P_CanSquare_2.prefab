@@ -78,6 +78,7 @@ MonoBehaviour:
   m_renderer: {fileID: 3951841801538951578}
   m_brokenPiecesRoot: {fileID: 3893664454318687569}
   m_brokenPieces: []
+  effectDuration: 2
   m_breakOnGround: 1
   BreakForce: 8
   BreakRadius: 2

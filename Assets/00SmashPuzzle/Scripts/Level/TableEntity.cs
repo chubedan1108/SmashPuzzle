@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class TableEntity : Entity
 {   [SerializeField] private MeshFilter meshFilter;
-    private TableCustomData customeData;
+    [SerializeField] private GameObject body;
+
+    private void Start()
+    {
+        body.SetActive(true);
+    }
     public override void ReadCustomData(string data)
     {
         //customeData = JsonUtility.FromJson<TableCustomData>(data);

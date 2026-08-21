@@ -140,6 +140,11 @@ public class Bullet : GameUnit
         isFading = false;
     }
 
+    public Vector3 GetPos()
+    {
+        return rb.transform.position;
+    }
+
     //Hieu ung o lan tuong tac dau tien
     private void ApplyFirstContactExplosion(Vector3 explosionPosition)
     {

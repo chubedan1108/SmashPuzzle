@@ -32,7 +32,6 @@ public static class SimplePool
         }
         return poolInstance[poolType].Spawn(pos, rot) as T;
     }
-
     // Tra lai phan tu vao pool
     public static void Despawn(PoolType poolType, GameUnit obj)
     {

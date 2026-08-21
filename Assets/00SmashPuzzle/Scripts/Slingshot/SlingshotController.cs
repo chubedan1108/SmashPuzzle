@@ -84,6 +84,7 @@ public class SlingshotController : MonoBehaviour
     private void LoadNextBullet()
     {
         currentBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet,firePoint.position,Quaternion.identity);
+        Debug.Log(currentBullet.transform.position + " " + currentBullet.GetPos());
         currentBullet.ResetBullet();
         currentBullet.transform.SetParent(firePoint, false);
         currentBullet.transform.localPosition = Vector3.zero;
