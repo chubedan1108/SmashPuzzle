@@ -16,12 +16,6 @@ public class Box : Obstacle
         {
             ApplyRandomVisualRotation();
         }
-       gameObject.SetActive(false);
-    }
-
-    protected override void Start()
-    {
-        gameObject.SetActive(true);
     }
 
     /// <summary>

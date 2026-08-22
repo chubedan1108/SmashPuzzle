@@ -27,10 +27,11 @@ public class LevelSpawner : MonoBehaviour
         GameObject prefab = entityDatabase.GetPrefab(entityData.Id);
         if (prefab != null)
         {
-            GameObject spawned = Instantiate(prefab, root);
-            spawned.transform.localPosition = entityData.Position;
-            spawned.transform.localRotation = entityData.Rotation;
-            Debug.Log($"name: {spawned.transform.name} \n LocalPosition: {spawned.transform.localPosition}");
+            Vector3 worldPos = root.TransformPoint(entityData.Position);
+            Quaternion worldRot = root.rotation * entityData.Rotation;
+            
+            GameObject spawned = Instantiate(prefab, worldPos, worldRot, root);
+          
             if (entityData.Custom != null)
             {
                 Entity entity = spawned.GetComponent<Entity>();

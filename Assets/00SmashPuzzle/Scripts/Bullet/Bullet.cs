@@ -8,6 +8,7 @@ using UnityEngine;
 public class Bullet : GameUnit
 {
     [SerializeField] private LayerMask ignoreImpact;
+    [SerializeField] private BoxRaycast raycast;
     [SerializeField] private Renderer transparentMesh;
     [SerializeField] private float lifetime = 2.5f;
     [SerializeField] private float fadeDuration = 0.5f;
@@ -37,7 +38,7 @@ public class Bullet : GameUnit
     private bool hasFirstContact;
     private bool hasLaunched;
     private bool isFading;
-
+    private bool check = false;
     public float CollisionRadius
     {
         get
@@ -59,6 +60,7 @@ public class Bullet : GameUnit
         rb = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
         originalMaterial = transparentMesh.material;
+        //raycast.GetComponent<BoxRaycast>();
     }
 
     private void FixedUpdate()
@@ -71,6 +73,9 @@ public class Bullet : GameUnit
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (check) return;
+        raycast.DetectAllBlocksInPath();
+        check = true;
         if (!hasLaunched || isFading || collision.contactCount == 0)
         {
             return;
@@ -86,6 +91,7 @@ public class Bullet : GameUnit
         if (collision.gameObject.GetComponent<Obstacle>())
         {
             HandleObstacleImpact(contact);
+
         }
        
     }
