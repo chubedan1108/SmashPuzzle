@@ -6,24 +6,45 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoin
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private Camera cam;
 
+    public static bool IsHolding { get; private set; }
+    public static Vector3 LastHitPoint { get; private set; }
+
+    private bool isPointerOverUI = false;
+
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("on pointer down");
+        // Chỉ coi là bấm vào UI nếu chạm vào một Button thực sự (khác GameInput)
+        GameObject currentUI = eventData.pointerCurrentRaycast.gameObject;
+        if (currentUI != null && currentUI != gameObject && currentUI.GetComponentInParent<UnityEngine.UI.Button>() != null)
+        {
+            isPointerOverUI = true;
+            return;
+        }
+
+        isPointerOverUI = false;
+        IsHolding = true;
         ProcessingAim(eventData.position);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("on drag");   
+        if (isPointerOverUI) return;
         ProcessingAim(eventData.position);
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Debug.Log("on pointer up");
+        if (isPointerOverUI)
+        {
+            isPointerOverUI = false;
+            return;
+        }
+
+        IsHolding = false;
         Ray ray = cam.ScreenPointToRay(eventData.position);
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
         {
+            LastHitPoint = hit.point;
             GameEvents.OnShoot?.Invoke(hit.point);
         }
     }
@@ -33,7 +54,7 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoin
         Ray ray = cam.ScreenPointToRay(screenPosition);
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
         {
-            Debug.Log(hit.collider.name);
+            LastHitPoint = hit.point;
             GameEvents.OnAim?.Invoke(hit.point);
         }
     }

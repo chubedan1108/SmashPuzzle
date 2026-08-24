@@ -14,12 +14,12 @@ public class ObstacleCommon : MonoBehaviour
     [SerializeField] private bool m_breakOnGround = true;
 
     [Header("Break Physics Parameters")]
-    public float BreakForce = 8f;        // Lực nổ hất văng mảnh vỡ
-    public float BreakRadius = 2f;       // Bán kính nổ mảnh vỡ
-    public float BreakUpwards = 0.1f;    // Lực hất bổng mảnh vỡ lên trời
-    public float BreakMaxSpeed = 3f;     // Tốc độ tối đa của mảnh vỡ
-    public float BreakSpin = 450f;       // Độ xoáy góc ngẫu nhiên cho mảnh vỡ
-    //Chua co logic kich hoat vo vun
+    public float BreakForce = 8f;        // Luc no hat vang manh vo
+    public float BreakRadius = 2f;       // Ban kinh no manh vo
+    public float BreakUpwards = 0.1f;    // Luc hat bong manh vo len troi
+    public float BreakMaxSpeed = 3f;     // Toc do toi da cua manh vo
+    public float BreakSpin = 450f;       // Do xoay goc ngau nhien cua manh vo
+
     public GameObject Mesh => m_mesh;
     public GameObject Renderer => m_renderer;
     public GameObject BrokenPiecesRoot => m_brokenPiecesRoot;

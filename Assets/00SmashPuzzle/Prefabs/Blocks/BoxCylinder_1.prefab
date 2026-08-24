@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &157977567598578996
 GameObject:
@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9098553968900817108}
   - component: {fileID: 7910921260037723224}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8707903411183740719}
   - component: {fileID: 8410103223604797628}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_1
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2900414929474210246}
   - component: {fileID: 3390077015125498120}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_3
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3953968704288343842}
   - component: {fileID: 2892551282133382005}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_1
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7689631975204736427}
   - component: {fileID: 7006557799926763488}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_0
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 7032500539859503763}
   - component: {fileID: 8834520447034704121}
   - component: {fileID: 3240440408643213692}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: boxCylinder_Broken_1x1_geo_01
   m_TagString: BrokenPieces
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109139626239282335}
   - component: {fileID: 4506838730192720399}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8290142842886833390}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: BrokenPieces
   m_TagString: BrokenPieces
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 536091453950322582}
   - component: {fileID: 6897409977045763654}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_0
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 3308415169786720670}
   - component: {fileID: 1226569536227140229}
   - component: {fileID: 8680717567948713586}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: boxCylinder_Broken_1x1_geo_03
   m_TagString: BrokenPieces
   m_Icon: {fileID: 0}
@@ -691,7 +691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218154991865512625}
   - component: {fileID: 2762149030172466775}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_7
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 6482799249014366369}
   - component: {fileID: 319163614170636205}
   - component: {fileID: 5940263062695055759}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: boxCylinder_Broken_1x1_geo_02
   m_TagString: BrokenPieces
   m_Icon: {fileID: 0}
@@ -882,7 +882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3479611581462028181}
   - component: {fileID: 8980333270503484755}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_5
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8580597704782602169}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: CylinderCollider
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -982,7 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6143267988126083426}
   - component: {fileID: 1974543577509624750}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_3
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1295025698280832853}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Renderer
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1069,7 +1069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8391786630363265105}
   - component: {fileID: 3539007661305565446}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_4
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ GameObject:
   - component: {fileID: 6274924124762874177}
   - component: {fileID: 4621293550919726374}
   - component: {fileID: 9151711422604344751}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BoxCylinder_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,7 +1239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608746480198628682}
   - component: {fileID: 1307616458076351818}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_7
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1292,7 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3394841697166440379}
   - component: {fileID: 6052596040837453695}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_4
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1345,7 +1345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4945094139286696024}
   - component: {fileID: 3043334007129776511}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_5
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1398,7 +1398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2729060253525995978}
   - component: {fileID: 3196544483891671}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_6
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1451,7 +1451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3822547319297636495}
   - component: {fileID: 5679723833473918961}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Facet_6
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1505,7 +1505,7 @@ GameObject:
   - component: {fileID: 6787482709319109204}
   - component: {fileID: 7829250919158210518}
   - component: {fileID: 319706675722152372}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,9 +7,9 @@ using UnityEngine;
 [RequireComponent(typeof(SphereCollider))]
 public class Bullet : GameUnit
 {
-    [SerializeField] private LayerMask ignoreImpact;
-    [SerializeField] private BoxRaycast raycast;
-    [SerializeField] private Renderer transparentMesh;
+    [SerializeField] protected LayerMask ignoreImpact;
+    [SerializeField] protected BoxRaycast raycast;
+    [SerializeField] protected Renderer transparentMesh;
     [SerializeField] private float lifetime = 2.5f;
     [SerializeField] private float fadeDuration = 0.5f;
 
@@ -43,6 +43,9 @@ public class Bullet : GameUnit
     {
         get
         {
+            if (sphereCollider == null) sphereCollider = GetComponent<SphereCollider>();
+            if (sphereCollider == null) return 0.5f;
+
             Vector3 scale = transform.lossyScale;
             float largestScale = Mathf.Max(
                 Mathf.Abs(scale.x),
@@ -57,15 +60,17 @@ public class Bullet : GameUnit
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
-        sphereCollider = GetComponent<SphereCollider>();
-        originalMaterial = transparentMesh.material;
-        //raycast.GetComponent<BoxRaycast>();
+        if (rb == null) rb = GetComponent<Rigidbody>();
+        if (sphereCollider == null) sphereCollider = GetComponent<SphereCollider>();
+        if (transparentMesh != null && originalMaterial == null)
+        {
+            originalMaterial = transparentMesh.material;
+        }
     }
 
     private void FixedUpdate()
     {
-        if (hasLaunched)
+        if (hasLaunched && rb != null)
         {
             velocityBeforeImpact = rb.linearVelocity;
         }
@@ -74,7 +79,7 @@ public class Bullet : GameUnit
     private void OnCollisionEnter(Collision collision)
     {
         if (check) return;
-        raycast.DetectAllBlocksInPath();
+       // raycast.DetectAllBlocksInPath();
         check = true;
         if (!hasLaunched || isFading || collision.contactCount == 0)
         {
@@ -115,30 +120,41 @@ public class Bullet : GameUnit
         ApplyHitVelocityRetention(contact.normal);
     }
 
-    public void Launch(Vector3 initialVelocity)
+    public virtual void Launch(Vector3 initialVelocity)
     {
+        if (rb == null) rb = GetComponent<Rigidbody>();
         transform.SetParent(null, true);
         hasLaunched = true;
         isFading = false;
-        rb.useGravity = true;
-        rb.isKinematic = false;
-        rb.linearDamping = 0f;
-        rb.angularDamping = 0.05f;
-        rb.linearVelocity = initialVelocity;
+        if (rb != null)
+        {
+            rb.useGravity = true;
+            rb.isKinematic = false;
+            rb.linearDamping = 0f;
+            rb.angularDamping = 0.05f;
+            rb.linearVelocity = initialVelocity;
+        }
         velocityBeforeImpact = initialVelocity;
 
         //sua lai logic khi cham nen hoac sau 2.5f ma khong xay ra va cham gi thi return to pool (de luc sau thi sua)
         returnCoroutine = StartCoroutine(ReturnToPoolAfterLifetime());
     }
 
-    public void ResetBullet()
+    public virtual void ResetBullet()
     {
+        if (rb == null) rb = GetComponent<Rigidbody>();
+        if (sphereCollider == null) sphereCollider = GetComponent<SphereCollider>();
+
         transform.gameObject.SetActive(false);
-        originalMaterial.SetFloat("_Alpha", 1f);
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
-        rb.linearDamping = 0f;
-        rb.angularDamping = 0.05f;
+       
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            rb.linearDamping = 0f;
+            rb.angularDamping = 0.05f;
+        }
+
         velocityBeforeImpact = Vector3.zero;
         hitCount = 0;
         hasFirstContact = false;
@@ -215,6 +231,7 @@ public class Bullet : GameUnit
             .OnComplete(() =>
             {
                 ResetBullet();
+                originalMaterial.SetFloat("_Alpha", 1f);
                 SimplePool.Despawn(PoolType.Bullet, this);
             });
     }

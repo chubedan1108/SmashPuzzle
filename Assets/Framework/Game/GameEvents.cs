@@ -7,5 +7,9 @@ public static partial class GameEvents
     public static Action<Vector3> OnAim;
     public static Action OnPullCompleted;
     public static Action OnShootCompleted;
-    public static Action OnHit;
+
+
+
+    public static Action OnBoosterBigBall;
+
 }

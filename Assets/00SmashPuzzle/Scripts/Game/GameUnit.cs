@@ -12,4 +12,6 @@ public enum PoolType
 {
     None,
     Bullet,
+    BigBall,
+    FrozenBall,
 }

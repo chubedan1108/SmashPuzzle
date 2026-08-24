@@ -2307,7 +2307,6 @@ GameObject:
   - component: {fileID: 6404519600575202564}
   - component: {fileID: 6374348913547538869}
   - component: {fileID: 8120787162665836500}
-  - component: {fileID: 2643918782732750658}
   - component: {fileID: 6070480826899463358}
   m_Layer: 7
   m_Name: Bullet
@@ -2397,7 +2396,7 @@ MonoBehaviour:
   ignoreImpact:
     serializedVersion: 2
     m_Bits: 192
-  raycast: {fileID: 2643918782732750658}
+  raycast: {fileID: 0}
   transparentMesh: {fileID: 8537327559853940199}
   lifetime: 2.5
   fadeDuration: 0.5
@@ -2406,30 +2405,12 @@ MonoBehaviour:
   firstContactExplosionForce: 3
   firstContactExplosionRadius: 2
   firstContactExplosionUpwards: 0.5
-  firstContactExploderMultiplier: 1.2
+  firstContactExploderMultiplier: 1
   hitVelocityRetention:
-  - 0.5
-  - 0.65
-  - 0.65
-  - 0.65
---- !u!114 &2643918782732750658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6722710165933932476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7363acf8134f3e94a99a02e941348e24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxHalfExtents: {x: 2, y: 2, z: 0.76}
-  maxDistance: 0
-  blockLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  direction: {x: 0, y: 0, z: 1}
+  - 0.05
+  - 0.1
+  - 0.1
+  - 0.1
 --- !u!96 &6070480826899463358
 TrailRenderer:
   serializedVersion: 3

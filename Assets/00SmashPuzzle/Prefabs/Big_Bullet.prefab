@@ -2392,10 +2392,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d819490f7788345a2e502242498d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolType: 1
+  poolType: 2
   ignoreImpact:
     serializedVersion: 2
     m_Bits: 192
+  raycast: {fileID: 0}
   transparentMesh: {fileID: 8537327559853940199}
   lifetime: 2.5
   fadeDuration: 0.5

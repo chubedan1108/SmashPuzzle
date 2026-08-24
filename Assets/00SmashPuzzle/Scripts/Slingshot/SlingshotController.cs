@@ -14,6 +14,7 @@ public class SlingshotController : MonoBehaviour
     [SerializeField, Min(0.01f)] private float desiredHorizontalSpeed = 20f;
 
     private Bullet currentBullet;
+    private PoolType currentPoolType;
     private Quaternion initialRootLocalRotation;
     private const string ANIM_TRIGGER_SHOOT="Shoot";
     private Vector3 currentTarget;
@@ -21,6 +22,7 @@ public class SlingshotController : MonoBehaviour
     private void Awake()
     {
         initialRootLocalRotation = slingshotRoot.localRotation;
+        currentPoolType = PoolType.Bullet;
         GameEvents.OnShoot += OnShoot;
         GameEvents.OnAim += Rotate;
         GameEvents.OnPullCompleted += AnimPullCompleted;
@@ -47,8 +49,18 @@ public class SlingshotController : MonoBehaviour
     public void OnShoot(Vector3 target)
     {
         currentTarget = target;
-        animator.SetTrigger(ANIM_TRIGGER_SHOOT);
-        featherSlingshot.Play();
+        if (animator != null)
+        {
+            animator.SetTrigger(ANIM_TRIGGER_SHOOT);
+        }
+        else
+        {
+            FireAt(target);
+        }
+        if (featherSlingshot != null)
+        {
+            featherSlingshot.Play();
+        }
     }
 
     //Xoay ve huong muc tieu
@@ -83,13 +95,50 @@ public class SlingshotController : MonoBehaviour
     //Load bullet tiep theo
     private void LoadNextBullet()
     {
-        currentBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet,firePoint.position,Quaternion.identity);
-        Debug.Log(currentBullet.transform.position + " " + currentBullet.GetPos());
+        currentBullet = SimplePool.Spawn<Bullet>(currentPoolType,firePoint.position,Quaternion.identity);
+       // Debug.Log(currentBullet.transform.position + " " + currentBullet.GetPos());
         currentBullet.ResetBullet();
         currentBullet.transform.SetParent(firePoint, false);
         currentBullet.transform.localPosition = Vector3.zero;
         currentBullet.transform.localRotation = Quaternion.identity;
         currentBullet.transform.localScale = Vector3.one;
+    }
+
+    public void ChangeNextBullet(PoolType newType)
+    {
+        if (currentBullet != null)
+        {
+            SimplePool.Despawn(currentPoolType, currentBullet);
+            currentBullet = null;
+        }
+        currentPoolType = newType;
+        LoadNextBullet();
+    }
+    
+
+    private bool isInfiniteMode = false;
+    private float autoFireDelay = 0.5f;
+    private float autoFireTimer = 0f;
+
+    public void SetInfiniteMode(bool enable, float delay = 0.5f)
+    {
+        isInfiniteMode = enable;
+        autoFireDelay = delay;
+        autoFireTimer = 0f;
+    }
+
+    private void Update()
+    {
+        if (isInfiniteMode && GameInput.IsHolding)
+        {
+            autoFireTimer -= Time.deltaTime;
+            if (autoFireTimer <= 0f)
+            {
+                autoFireTimer = autoFireDelay;
+                Vector3 target = GameInput.LastHitPoint != Vector3.zero ? GameInput.LastHitPoint : currentTarget;
+                OnShoot(target);
+            }
+        }
     }
 
     //Ban tai muc tieu
@@ -120,6 +169,17 @@ public class SlingshotController : MonoBehaviour
         bulletToFire.transform.SetParent(null, true);
         bulletToFire.gameObject.SetActive(true);
         bulletToFire.Launch(calculatedVelocity);
+
+        if (BoosterManager.Instance != null)
+        {
+            BoosterManager.Instance.NotifyBulletFired();
+        }
+
+        if (!isInfiniteMode)
+        {
+            currentPoolType = PoolType.Bullet;
+        }
+
         LoadNextBullet();
     }
 
